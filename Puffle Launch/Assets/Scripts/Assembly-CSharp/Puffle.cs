@@ -190,6 +190,10 @@ public class Puffle : MonoBehaviour
     public void Awake()
     {
         mInstance = this;
+        if (GameFlowManager.Instance != null)
+        {
+            mInputController = GameFlowManager.Instance.InputController;
+        }
     }
 
     public void Start()
@@ -198,7 +202,10 @@ public class Puffle : MonoBehaviour
         mTransform = base.transform;
         EnsureTrail();
         mCurrentContainer = null;
-        mInputController = GameFlowManager.Instance.InputController;
+        if (GameFlowManager.Instance != null)
+        {
+            mInputController = GameFlowManager.Instance.InputController;
+        }
         smControlType = ControlType.eTouchScreen;
         mControlTimeout = 0f;
         mTrailDelay = 0f;
@@ -209,15 +216,23 @@ public class Puffle : MonoBehaviour
 
     public void Update()
     {
+        if (mInputController == null && GameFlowManager.Instance != null)
+        {
+            mInputController = GameFlowManager.Instance.InputController;
+        }
+
         if (GameManager.Instance.IsPause())
         {
             return;
         }
+
         if (!mDisableInput && mState == PuffleState.eInCannon && GetLaunchPuffle())
         {
             mState = PuffleState.eLaunching;
         }
+
         mControlTimeout = Mathf.Max(mControlTimeout - Time.deltaTime, 0f);
+
         float num = mTrailDelay;
         if (num > 0f)
         {
@@ -433,7 +448,7 @@ public class Puffle : MonoBehaviour
     private float GetPuffleMovement()
     {
         float value = 0f;
-        if (mControlTimeout <= 0f)
+        if (mControlTimeout <= 0f && mInputController != null)
         {
             if (Application.isEditor || Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.OSXPlayer)
             {
@@ -495,7 +510,7 @@ public class Puffle : MonoBehaviour
         {
             return false;
         }
-        if (GUIUtility.hotControl != 0 || (!Application.isEditor && mInputController != null && mInputController.Zoom))
+        if (GUIUtility.hotControl != 0 || (!Application.isEditor && (mInputController == null || mInputController.Zoom)))
         {
             return false;
         }
@@ -515,7 +530,7 @@ public class Puffle : MonoBehaviour
             {
                 case ControlType.eTouchScreen:
                 case ControlType.eTilting:
-                    if (mInputController.TouchDown && mCurrentContainer.tag != "ControllableCannon")
+                    if (mInputController != null && mInputController.TouchDown && mCurrentContainer.tag != "ControllableCannon")
                     {
                         result = true;
                     }
