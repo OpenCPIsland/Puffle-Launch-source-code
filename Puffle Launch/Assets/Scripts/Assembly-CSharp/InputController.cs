@@ -422,6 +422,7 @@ public class InputController : MonoBehaviour
     private void Start()
     {
         mAccelerometerDirection.x = (mAccelerometerDirection.y = 0f);
+#if UNITY_IOS || UNITY_EDITOR
 #if UNITY_IOS
 		if (UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPhone ||
 		    UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPodTouch1Gen ||
@@ -430,6 +431,7 @@ public class InputController : MonoBehaviour
 		{
 			mHoldDetectTime = 0.2f;
 		}
+#endif
 #endif
     }
 
@@ -485,6 +487,18 @@ public class InputController : MonoBehaviour
                 {
                     mTouchDown = true;
                 }
+            }
+            Vector2 keyDir = Vector2.zero;
+            if (Input.GetKey(KeyCode.UpArrow)) keyDir.y += 1;
+            if (Input.GetKey(KeyCode.DownArrow)) keyDir.y -= 1;
+            if (Input.GetKey(KeyCode.LeftArrow)) keyDir.x -= 1;
+            if (Input.GetKey(KeyCode.RightArrow)) keyDir.x += 1;
+            if (keyDir != Vector2.zero)
+            {
+                mTouch = true;
+                mTouchCount = 1;
+                mTouchPosition1 += new Vector3(keyDir.x, keyDir.y, 0f) * 5f;
+                m_Finger1Moved = true;
             }
         }
         else
@@ -792,31 +806,9 @@ public class InputController : MonoBehaviour
         if (Mathf.Abs(mAccelerometerDirection.y) >= mTiltDeadzone)
         {
             mTilt = true;
+            mTiltDirection = ((!(mAccelerometerDirection.y > 0f)) ? ((mDeviceOrientation != Orientation.eLandscapeLeft) ? TiltAxis.eTiltLeft : TiltAxis.eTiltRight) : ((mDeviceOrientation != Orientation.eLandscapeLeft) ? TiltAxis.eTiltRight : TiltAxis.eTiltLeft));
+            mTiltAngle = Mathf.Abs(mAccelerometerDirection.y);
         }
-        if (!mTilt)
-        {
-            return;
-        }
-        if (mAccelerometerDirection.y > 0f)
-        {
-            if (mDeviceOrientation == Orientation.eLandscapeLeft)
-            {
-                mTiltDirection = TiltAxis.eTiltLeft;
-            }
-            else
-            {
-                mTiltDirection = TiltAxis.eTiltRight;
-            }
-        }
-        else if (mDeviceOrientation == Orientation.eLandscapeLeft)
-        {
-            mTiltDirection = TiltAxis.eTiltRight;
-        }
-        else
-        {
-            mTiltDirection = TiltAxis.eTiltLeft;
-        }
-        mTiltAngle = Mathf.Abs(mAccelerometerDirection.y);
     }
 
     private void ShakeGesture()
