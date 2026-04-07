@@ -1,0 +1,151 @@
+TXT_PauseMenu	MENÚ
+TXT_PauseMenu2	SILENCIAR
+TXT_PauseMenu4	REINICIAR
+TXT_Loggedinas	Sesión iniciada como:
+TXT_Transfer	Transferir
+TXT_Coins	Monedas
+TXT_LogOut	Cerrar sesión
+TXT_MainMenu	Menú principal
+TXT_CoinsTransferred	Monedas transferidas
+TXT_Error	Error al transferir las monedas
+TXT_TransferYourCoins	Transferir monedas a clubpenguin.com/es
+TXT_EndGameScreen	Menú
+TXT_Instructions	PULSA AQUÍ\nPARA LANZAR
+TXT_Instructions4	ARRASTRA EL\nCAÑÓN AL BLANCO
+TXT_Instructions5	¡PUNTO DE\nCONTROL!
+TXT_Instructions6	HAY NUBES QUE\nESCONDEN SECRETOS
+TXT_Instructions7	ARRASTRA Y SUELTA\nPARA LANZAR
+TXT_Area1	CIELO AZUL
+TXT_Area2	BATIDO DE CREMA
+TXT_New	NUEVO
+TXT_TimeTrial	¡CONTRARRELOJ!
+TXT_BestTime	Mejor tiempo:
+TXT_Good1	¡BIEN!
+TXT_Good2	¡MUY BIEN!
+TXT_Good3	¡GENIAL!
+TXT_Good4	¡FANTÁSTICO!
+TXT_NewRecord	NUEVO\nRÉCORD
+TXT_Total	TOTAL
+TXT_Play	JUGAR
+TXT_Unmute	SONIDO
+TXT_Resume	CONTINUAR
+TXT_Password	Contraseña
+TXT_Waiting	Waiting
+TXT_On	Turbo
+TXT_Off	Turbo
+TXT_Of	de
+TXT_Instructions2a	PULSA PARA\nIR A LA IZQ.
+TXT_Instructions2b	PULSA PARA\nIR A LA DER.
+TXT_Turbo	Turbo
+TXT_TimeTrialLocked	Recoge todos los puffitos para entrar al modo Contrarreloj
+TXT_TimeTrialUnlocked	¡Has entrado al modo Contrarreloj!
+TXT_TimeTrialSilver	¡Has obtenido Plata en el modo Contrarreloj!
+TXT_TimeTrialGold	¡Has obtenido Oro en el modo Contrarreloj!
+TXT_TurboModeLocked	Pasa todos los niveles en menos de {0} para entrar al modo Turbo
+TXT_TurboModeUnlocked	¡Has entrado al modo Turbo!
+TXT_SlowMotionLocked	Pasa todos los niveles del modo Turbo y entra al Lento
+TXT_SlowMotionUnlocked	¡Has entrado al modo Lento!
+TXT_SlowMotionInstructions	Si ves esto, pulsa para activar o no el modo Lento
+TXT_Ok	Ok
+TXT_BeatTheClock	¿Puedes ganarle al tiempo?
+TXT_NewGoal	Nuevo objetivo:
+TXT_Login	Iniciar sesión
+TXT_SlowMo	Lento
+TXT_SlowMoAllCaps	LENTO
+TXT_CreateAccount	¡Crear pingüino!
+TXT_NEXT	CONT.
+TXT_TapToTransfer	Transferir
+TXT_Level	Nivel {0}
+TXT_BlueSkyNoCaps	Cielo azul
+TXT_SodaSunsetNoCaps	Batido de crema
+TXT_AboutCP	Ingresa a clubpenguin.com/es
+TXT_Credits	Créditos
+TXT_AboutCP_pg1	¡Forma parte de la aventura!
+TXT_AboutCP_pg2	Adopta un puffle, ¡y únete a la acción!
+TXT_AboutCP_pg3	Combate a otros ninjas en el Card-jitsu.
+TXT_AboutCP_pg4	Protege la isla como agente secreto.
+TXT_AboutCP_pg5	¡Asiste a fiestas con tus pingüi-amigos!
+TXT_AboutCP_pg5b	Para acceder a ciertas funciones \n debes ser socio.
+TXT_Credits_1	Creación y producción
+TXT_Credits_2	Desarrollo
+TXT_Credits_3	Publicado por
+TXT_Credits_4	Visita nuestro sitio:
+TXT_Credits_5	clubpenguin.com/es
+TXT_Credits_6	disneylatino.com
+TXT_Credits_7	Versión {0}
+TXT_Credits_8	Atención al cliente:
+TXT_Credits_9	 help.disney.com/clubpenguin
+TXT_Copyright	© 2011 Disney
+TXT_OKAllCaps	OK
+TXT_TOU	Términos de uso
+TXT_Transferring	Las monedas se transferirán a {0}.
+TXT_ClubPenguin	Club Penguin
+TXT_TurboAllCaps	TURBO
+TXT_ErrorTitle	¡Error!
+TXT_ChooseColor	Elige un color
+TXT_CPAccount	Cuenta de Club Penguin
+TXT_TOU_Link	Al continuar, aceptas los\nTÉRMINOS DE USO y las PÓLITICAS DE PRIVACIDAD.
+TXT_ReTypePassword	Confirmar contraseña
+TXT_PenguinName	Pingüino
+TXT_Email	Email paterno
+TXT_FailToConnect	¡Uy! No estás conectado a Internet. Porfa, revisa tu configuración e intenta otra vez.
+TXT_ServerError	Hubo un problema al intentar conectarnos con Club Penguin. Cierra la sesión, vuelve a iniciarla e intenta otra vez.
+TXT_MissingResultKey	Missing required result key
+TXT_PasswordEmptyConfirm	¡Uy! Debes escribir tu contraseña dos veces para confirmarla.
+TXT_PasswordMismatch	¡Uy! Las contraseñas no coinciden. Intenta otra vez.
+TXT_PlayNotFound	Cannot find the player in the authToken
+
+TXT_PlayerBanned	No se puede acceder a esa cuenta. Porfa, vuelve a intentar más tarde.
+TXT_PlayerBannedForever	Esta cuenta ha sido suspendida para siempre. Para recibir ayuda, ponte en contacto con Soporte a la Comunidad de Club Penguin.
+TXT_InvalidToken	Invalid authToken
+TXT_UnauthorizedAccess	Failed to validate authToken
+TXT_AccountNotFound	¡Uy! No encontramos la cuenta.
+TXT_UserNameTaken	¡Uy! Ese nombre ya existe. Intenta con: {0}
+TXT_UserNameEmpty	¡Uy! Debes ponerle un nombre al pingüino.
+TXT_UserNameTooShort	¡Uy! El nombre debe tener al menos 4 letras o números. Intenta otra vez.
+TXT_UserNameTooLong	¡Uy! El nombre debe tener menos de 12 letras o números. Intenta otra vez.
+TXT_UserNameTooManyNumbers	¡Uy! El nombre no puede tener más de 5 números. Intenta otra vez.
+TXT_UserNameTooManySpaces	¡Uy! No puede haber dos espacios seguidos. Intenta otra vez.
+TXT_UserNameTooFewChars	¡Uy! El nombre debe tener al menos una letra. Intenta otra vez.
+TXT_UserNameWrongFormat	¡Uy! El nombre solo puede tener letras, números y espacios. Intenta otra vez.
+TXT_UserNameBannedWord	¡Uy! Ese nombre no está permitido. Intenta otra vez.
+TXT_UserNameNotAllowed	¡Uy! Ese nombre no está permitido. Intenta otra vez.
+TXT_PasswordEmpty	¡Uy! Debes escribir tu contraseña dos veces para confirmarla.
+TXT_PasswordTooShort	¡Uy! La contraseña debe tener al menos 6 letras o números. Intenta otra vez.
+TXT_PasswordTooLong	¡Uy! La contraseña debe tener entre 6 y 32 letras o números. Intenta otra vez.
+TXT_PasswordMatchesUserName	¡Uy! La contraseña no puede ser igual que el nombre. Intenta otra vez.
+TXT_PasswordEasyToGuess	¡Uy! Esa contraseña es demasiado fácil. Agrégale números y símbolos.
+TXT_EmailEmpty	¡Uy! Ingresa un email paterno.
+TXT_EmailWrongFormat	¡Uy! Formato de email incorrecto. Intenta otra vez.
+TXT_EmailWrongBannedDomain	El dominio no puede usarse. Para más info, ponte en contacto con support.clubpenguin.com/es
+TXT_EmailTooManyAccounts	¡Uy! Hay demasiadas cuentas asociadas a ese email. Contáctanos en support.clubpenguin.com/es
+TXT_WrongPlayerColor	Hubo un problema al crear tu pingüino. Porfa, intenta otra vez.
+TXT_InvalidMissingParam	Missing required parameter or failed to parse and validate parameter
+TXT_PasswordlsAfirstName	¡Uy! La contraseña no puede ser un nombre. Intenta otra vez.
+TXT_ReachedDailyLimit	¡Uy! Puedes transferir hasta 4500 monedas por día.
+TXT_TurboModeAllCaps	MODO TURBO
+TXT_HaveYouUnlocked	¡Oye, pingüino! ¿Ya has experimentado todos los modos del juego?
+TXT_EmailBadISP	{0} no es un proveedor de correo válido. Revisa la ortografía e intenta de nuevo.
+TXT_LogoutConfirmation	¿Realmente quieres cerrar sesión?
+TXT_Yes	Sí
+TXT_No	No
+TXT_CreateYourPenguin	¡Crea tu pingüino!
+TXT_NetworkError	Error: Club Penguin no está disponible. Vuelve a intentar más tarde.
+TXT_UserNameTaken1	¡Uy! El nombre de pingüino ya existe. Intenta con otro.
+TXT_AuthorizationFailed	¡Uy! El nombre de pingüino o la contraseña son incorrectos. Intenta otra vez.
+TXT_PlayerActive	¡Uy! El jugador ya ha iniciado sesión.
+TXT_PrivacyPolicy	Política de privacidad
+TXT_TermsAndPrivacyTap	Pulsa aquí para ver los TÉRMINOS DE USO y la POLÍTICA DE PRIVACIDAD.
+TXT_TermsAndPrivacyTap2lines	Pulsa aquí para ver los\nTÉRMINOS DE USO y la POLÍTICA DE PRIVACIDAD.
+TXT_AndroidExit	¿Seguro que quieres salir?
+TXT_AboutCP_Video	VER VIDEO
+TXT_RateMyAppTitle	Calificar Puffle al viento
+TXT_RateMyAppMsg	Si te gusta mucho jugar a Puffle al viento, ¡califícalo en la tienda App Store!  ¡Gracias por tu apoyo!
+TXT_RateMyAppRateButton	Calificar Puffle al viento
+TXT_RateMyAppNoButton	No, gracias
+TXT_RateMyAppRemindButton	Recordarme más tarde
+TXT_Bonus	EXTRA
+TXT_RateMyAppMsgAndroid	Si te gusta mucho jugar a Puffle al viento, ¡califícalo en la tienda Android Market! ¡Gracias por tu apoyo!
+TXT_UPSELL_TITLE	¡COMPRAR LA VERSIÓN COMPLETA!
+TXT_UPSELL_POINTS	•  60 NIVELES MEGAVELOCES\n•  JUEGA EN 3 MODOS EXTREMOS\n•  DESAFÍA AL CANGREJEFE
+TXT_Disclaimer	Se debe realizar una compra

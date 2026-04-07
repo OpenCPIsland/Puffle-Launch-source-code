@@ -1,0 +1,151 @@
+TXT_PauseMenu	MENU
+TXT_PauseMenu2	SON OFF
+TXT_PauseMenu4	REJOUER
+TXT_Loggedinas	Connecté en tant que
+TXT_Transfer	Transférer
+TXT_Coins	Pièces
+TXT_LogOut	Se déconnecter
+TXT_MainMenu	Menu principal
+TXT_CoinsTransferred	Pièces transférées
+TXT_Error	Erreur lors du transfert des pièces
+TXT_TransferYourCoins	Transfère tes pièces vers clubpenguin.com/fr
+TXT_EndGameScreen	Menu
+TXT_Instructions	Touche l'écran\npour décoller
+TXT_Instructions4	Bouge le canon\npour viser
+TXT_Instructions5	Sauvegarde !
+TXT_Instructions6	Certains nuages cachent\ndes secrets
+TXT_Instructions7	Fais glisser et relâche\npour décoller
+TXT_Area1	CIEL BLEU
+TXT_Area2	HORIZON SODA
+TXT_New	NOUVEAU
+TXT_TimeTrial	Contre la montre !
+TXT_BestTime	Meilleur temps :
+TXT_Good1	BIEN !
+TXT_Good2	COOL !
+TXT_Good3	SUPER !
+TXT_Good4	GÉNIAL !
+TXT_NewRecord	NOUVEAU\nRECORD !
+TXT_Total	TOTAL
+TXT_Play	JOUER
+TXT_Unmute	Son ON
+TXT_Resume	Reprendre
+TXT_Password	Mot de passe
+TXT_Waiting	Waiting
+TXT_On	On
+TXT_Off	Off
+TXT_Of	de
+TXT_Instructions2a	TOUCHE POUR\nALLER À GAUCHE
+TXT_Instructions2b	TOUCHE POUR\nALLER À DROITE
+TXT_Turbo	Turbo
+TXT_TimeTrialLocked	Ramasse toutes les baies pour débloquer le mode Contre la Montre.
+TXT_TimeTrialUnlocked	Tu as débloqué le mode Contre la Montre !
+TXT_TimeTrialSilver	Tu as remporté l'argent dans le mode Contre la Montre !
+TXT_TimeTrialGold	Tu as remporté l'or dans le mode Contre la Montre !
+TXT_TurboModeLocked	Finis tous les niveaux en moins de {0} pour débloquer le mode Turbo.
+TXT_TurboModeUnlocked	Tu as débloqué le mode Turbo
+TXT_SlowMotionLocked	Finis tous les niveaux en mode Turbo pour débloquer le mode Ralenti.
+TXT_SlowMotionUnlocked	Tu as débloqué le mode Ralenti !
+TXT_SlowMotionInstructions	Quand tu vois cela, touche-le pour activer ou désactiver le ralenti.
+TXT_Ok	Ok
+TXT_BeatTheClock	Pourras-tu finir à temps ?
+TXT_NewGoal	Objectif :
+TXT_Login	Se connecter
+TXT_SlowMo	Ralenti
+TXT_SlowMoAllCaps	RALENTI
+TXT_CreateAccount	Crée un pingouin !
+TXT_NEXT	SUITE
+TXT_TapToTransfer	Transférer
+TXT_Level	Niveau {0}
+TXT_BlueSkyNoCaps	Ciel Bleu
+TXT_SodaSunsetNoCaps	Horizon Soda
+TXT_AboutCP	Joue sur clubpenguin.com/fr
+TXT_Credits	Infos
+TXT_AboutCP_pg1	Participe à l'aventure !
+TXT_AboutCP_pg2	Adopte un puffle et prends part à l'action !
+TXT_AboutCP_pg3	Affronte des ninjas au Card-Jitsu.
+TXT_AboutCP_pg4	Protège l'île en tant qu'agent secret.
+TXT_AboutCP_pg5	Fais la fête avec tes copains !
+TXT_AboutCP_pg5b	Certaines fonctions requièrent \n un abonnement payant.
+TXT_Credits_1	Créé et produit par
+TXT_Credits_2	Développé par
+TXT_Credits_3	Publié par
+TXT_Credits_4	Rendez-nous visite sur :
+TXT_Credits_5	clubpenguin.com/fr
+TXT_Credits_6	disney.go.com
+TXT_Credits_7	Version {0}
+TXT_Credits_8	Pour l'assistance clientèle, veuillez\nvous rendre sur :
+TXT_Credits_9	 help.disney.com/clubpenguin
+TXT_Copyright	© 2011 Disney
+TXT_OKAllCaps	OK
+TXT_TOU	Conditions d'utilisation
+TXT_Transferring	Tu es en train de transférer des pièces vers {0}.
+TXT_ClubPenguin	Club Penguin
+TXT_TurboAllCaps	TURBO
+TXT_ErrorTitle	Erreur !
+TXT_ChooseColor	Choisis ta couleur
+TXT_CPAccount	Compte Club Penguin
+TXT_TOU_Link	En continuant, tu acceptes les\nCONDITIONS D'UTILISATION et de CONFIDENTIALITÉ.
+TXT_ReTypePassword	Retape mot de passe
+TXT_PenguinName	Nom de pingouin
+TXT_Email	E-mail des parents
+TXT_FailToConnect	Tu n'es pas connecté à internet. Vérifie tes paramètres et essaie à nouveau.
+TXT_ServerError	Une erreur s'est produite pendant la connexion à Club Penguin. Déconnecte-toi de ton compte, reconnecte-toi, et essaie à nouveau.
+TXT_MissingResultKey	Missing required result key
+TXT_PasswordEmptyConfirm	Tu dois taper ton mot de passe deux fois pour le confirmer.
+TXT_PasswordMismatch	Mots de passe non identiques. Essaie à nouveau.
+TXT_PlayNotFound	Cannot find the player in the authToken
+
+TXT_PlayerBanned	Ce compte n'est pas accessible. Réessaie plus tard.
+TXT_PlayerBannedForever	Ce compte a été banni définitivement. Contacte l'assistance de Club Penguin pour plus d'aide.
+TXT_InvalidToken	Invalid authToken
+TXT_UnauthorizedAccess	Failed to validate authToken
+TXT_AccountNotFound	Pingouin introuvable.
+TXT_UserNameTaken	Oups. Ce nom de pingouin est déjà pris. Essaie {0}.
+TXT_UserNameEmpty	Oups. Tu dois donner un nom à ton pingouin.
+TXT_UserNameTooShort	Oups. Ton nom de pingouin doit contenir au moins 4 lettres ou chiffres. Essaie à nouveau.
+TXT_UserNameTooLong	Oups. Ton nom de pingouin doit contenir moins de 12 lettres ou chiffres. Essaie à nouveau.
+TXT_UserNameTooManyNumbers	Oups. Ton nom de pingouin ne peut contenir qu'un maximum de 5 chiffres. Essaie à nouveau.
+TXT_UserNameTooManySpaces	Oups. Ton nom de pingouin ne peut pas contenir 2 espaces à la suite. Essaie à nouveau.
+TXT_UserNameTooFewChars	Oups. Ton nom de pingouin doit contenir au moins 1 lettre. Essaie à nouveau.
+TXT_UserNameWrongFormat	Oups. Ton nom de pingouin ne peut contenir que des lettres, chiffres et espaces. Essaie à nouveau.
+TXT_UserNameBannedWord	Oups. Ce nom de pingouin n'est pas autorisé. Essaie à nouveau.
+TXT_UserNameNotAllowed	Oups. Ce nom de pingouin n'est pas autorisé. Essaie à nouveau.
+TXT_PasswordEmpty	Tu dois taper ton mot de passe deux fois pour le confirmer.
+TXT_PasswordTooShort	Oups. Ton mot de passe doit contenir au moins 6 lettres ou chiffres. Essaie à nouveau.
+TXT_PasswordTooLong	Oups. Ton mot de passe doit contenir entre 6 et 32 lettres ou chiffres. Essaie à nouveau.
+TXT_PasswordMatchesUserName	Oups. Ton mot de passe doit être différent de ton nom de pingouin. Essaie à nouveau.
+TXT_PasswordEasyToGuess	Oups. Ton mot de passe est trop facile à deviner. Essaie d'ajouter des chiffres et des symboles.
+TXT_EmailEmpty	Oups. Tu dois taper l'adresse e-mail de tes parents.
+TXT_EmailWrongFormat	Oups. Cette adresse e-mail n'est pas valide. Essaie à nouveau.
+TXT_EmailWrongBannedDomain	Oups. Ce nom de domaine ne peut pas être utilisé pour le moment. Pour toutes questions, écris-nous à support.clubpenguin.com/fr.
+TXT_EmailTooManyAccounts	Oups. Il y a déjà trop de pingouins associés à cet e-mail. Écris-nous à support.clubpenguin.com/fr.
+TXT_WrongPlayerColor	Une erreur s'est produite pendant la création de ton pingouin. Essaie à nouveau.
+TXT_InvalidMissingParam	Missing required parameter or failed to parse and validate parameter
+TXT_PasswordlsAfirstName	Oups. Ton mot de passe ne peut pas être un prénom. Essaie à nouveau.
+TXT_ReachedDailyLimit	Oups.  La limite de transfert de pièces par jour est de 4500.
+TXT_TurboModeAllCaps	MODE TURBO
+TXT_HaveYouUnlocked	Tu n’as pas froid aux yeux ! As-tu déjà débloqué tous les modes de jeu ?
+TXT_EmailBadISP	{0} n'est pas un fournisseur d'adresse e-mail valide. Vérifie l'orthographe et essaie à nouveau.
+TXT_LogoutConfirmation	Es-tu sûr de vouloir te déconnecter ?
+TXT_Yes	Oui
+TXT_No	Non
+TXT_CreateYourPenguin	Crée ton pingouin !
+TXT_NetworkError	Erreur. Club Penguin est actuellement indisponible. Essaie de te connecter plus tard.
+TXT_UserNameTaken1	Oups. Ce nom de pingouin est déjà pris. Essaie de trouver un autre nom.
+TXT_AuthorizationFailed	Oups. Le nom de pingouin ou mot de passe est incorrect. Essaie à nouveau.
+TXT_PlayerActive	Oups. Ce pingouin est déjà connecté ailleurs.
+TXT_PrivacyPolicy	Politique de confidentialité
+TXT_TermsAndPrivacyTap	Touche l'écran pour voir les CONDITIONS D'UTILISATION et de CONFIDENTIALITÉ.
+TXT_TermsAndPrivacyTap2lines	Touche l'écran pour voir les\nCONDITIONS D'UTILISATION et de CONFIDENTIALITÉ.
+TXT_AndroidExit	Veux-tu vraiment quitter le jeu ?
+TXT_AboutCP_Video	VOIR LA VIDÉO
+TXT_RateMyAppTitle	Notez Aéro Puffle
+TXT_RateMyAppMsg	Si vous aimez jouer à Aéro Puffle, donnez-lui une note sur l'App Store. Merci pour votre soutien !
+TXT_RateMyAppRateButton	Noter Aéro Puffle
+TXT_RateMyAppNoButton	Non, merci
+TXT_RateMyAppRemindButton	Me le rappeler plus tard
+TXT_Bonus	BONUS
+TXT_RateMyAppMsgAndroid	Si vous aimez jouer à Aéro Puffle, donnez-lui une note sur l'Android Market. Merci pour votre soutien !
+TXT_UPSELL_TITLE	VERSION COMPLÈTE DISPONIBLE À L'ACHAT
+TXT_UPSELL_POINTS	•  60 NIVEAUX À HAUTE VITESSE\n•  DÉBLOQUE 3 MODES EXTRÊMES\n•  DÉFIE LE BOSS CRABE
+TXT_Disclaimer	Achat requis

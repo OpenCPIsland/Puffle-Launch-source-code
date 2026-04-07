@@ -1,0 +1,7 @@
+Offset: 0 1 417 52
+Start: 0 461
+Pixels To Next Column and Row: 418 52
+Cols: 1
+Rows: 9
+Total Cells: 5
+Original Size: 417 53

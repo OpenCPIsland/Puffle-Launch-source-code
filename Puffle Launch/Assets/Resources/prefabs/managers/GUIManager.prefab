@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1581585947782056
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4283446403201480}
+  - 114: {fileID: 114034604465690652}
+  - 114: {fileID: 114163655489070071}
+  m_Layer: 0
+  m_Name: GUIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4283446403201480
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581585947782056}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114034604465690652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581585947782056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2684d75279107198edf55b68c156487a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Skin: {fileID: 11400000, guid: eba7eec7c53c47f4e8623dea6d78600d, type: 2}
+  m_WhiteTextDropShadowColor: {r: 1, g: 1, b: 1, a: 0.43137255}
+  m_DarkBrownTextDropShadowColor: {r: 0, g: 0, b: 0, a: 0.49803922}
+  m_LightBrownTextDropShadowColor: {r: 0, g: 0, b: 0, a: 0.49803922}
+  m_DarkerBrownTextDropShadowColor: {r: 0, g: 0, b: 0, a: 0.49803922}
+  m_GreyBrownTextDropShadowColor: {r: 0, g: 0, b: 0, a: 0.49803922}
+  m_DropShadowOffsetOriginal: {x: 0, y: 2}
+  m_DropShadowOffsetLowRes: {x: 0, y: 1}
+  m_DropShadowOffsetIPad: {x: 0, y: 2}
+  m_NewResMatrix:
+    e00: 0
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 0
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 0
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 0
+--- !u!114 &114163655489070071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581585947782056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9930757ea09d7ab92943f4a45078390, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1581585947782056}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

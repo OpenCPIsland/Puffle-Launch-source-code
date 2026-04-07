@@ -1,0 +1,151 @@
+TXT_PauseMenu	MENU
+TXT_PauseMenu2	MUDO
+TXT_PauseMenu4	REINICIAR
+TXT_Loggedinas	Logado como
+TXT_Transfer	Enviar
+TXT_Coins	Moedas
+TXT_LogOut	Sair
+TXT_MainMenu	Menu Principal
+TXT_CoinsTransferred	Moedas Enviadas
+TXT_Error	Erro na transferência
+TXT_TransferYourCoins	Enviar moedas para o clubpenguin.com/pt
+TXT_EndGameScreen	Menu
+TXT_Instructions	Toque para lançar
+TXT_Instructions4	USE O CANHÃO\nPARA MIRAR
+TXT_Instructions5	SALVAR!
+TXT_Instructions6	ALGUMAS NUVENS\nTÊM SEGREDOS
+TXT_Instructions7	ARRASTE E SOLTE\nPARA LANÇAR
+TXT_Area1	CÉU AZUL
+TXT_Area2	SOL DE REFRI
+TXT_New	NOVO
+TXT_TimeTrial	TEMPO!
+TXT_BestTime	Melhor tempo:
+TXT_Good1	BOM!
+TXT_Good2	DEMAIS!
+TXT_Good3	SUPER!
+TXT_Good4	INCRÍVEL!
+TXT_NewRecord	NOVO\nRECORDE!
+TXT_Total	TOTAL
+TXT_Play	JOGAR
+TXT_Unmute	SOM
+TXT_Resume	JOGAR
+TXT_Password	Senha
+TXT_Waiting	Waiting
+TXT_On	Ligar
+TXT_Off	Desligado
+TXT_Of	de
+TXT_Instructions2a	TOQUE PARA IR\nÀ ESQUERDA
+TXT_Instructions2b	TOQUE PARA IR\nÀ DIREITA
+TXT_Turbo	Turbo
+TXT_TimeTrialLocked	Destrave o Modo Tempo colecionando todos os Puffitos.
+TXT_TimeTrialUnlocked	Você destravou o Modo Tempo!
+TXT_TimeTrialSilver	Você alcançou o nível Prata no Modo Tempo!
+TXT_TimeTrialGold	Você alcançou o nível Ouro no Modo Tempo!
+TXT_TurboModeLocked	Destrave o Modo Turbo ao vencer todos os níveis somando um tempo menor que {0}.
+TXT_TurboModeUnlocked	Você destravou o Modo Turbo!
+TXT_SlowMotionLocked	Destrave o Modo Lento completando o Modo Turbo.
+TXT_SlowMotionUnlocked	Você destravou o Modo Lento!
+TXT_SlowMotionInstructions	Quando você vir isso, toque para ligar ou desligar o Modo Lento.
+TXT_Ok	Ok
+TXT_BeatTheClock	Você é rápido?
+TXT_NewGoal	Objetivo:
+TXT_Login	Logar
+TXT_SlowMo	Modo Lento
+TXT_SlowMoAllCaps	LENTO
+TXT_CreateAccount	Crie seu Pinguim!
+TXT_NEXT	MAIS
+TXT_TapToTransfer	Enviar
+TXT_Level	Nível {0}
+TXT_BlueSkyNoCaps	Céu Azul
+TXT_SodaSunsetNoCaps	Sol de Refri
+TXT_AboutCP	Acesse clubpenguin.com/pt
+TXT_Credits	Créditos
+TXT_AboutCP_pg1	Faça parte da aventura
+TXT_AboutCP_pg2	Adote um puffle e divirta-se!
+TXT_AboutCP_pg3	Participe do Desafio Ninja.
+TXT_AboutCP_pg4	Seja um agente secreto e proteja a ilha...
+TXT_AboutCP_pg5	Faça a festa com seus amigos!
+TXT_AboutCP_pg5b	Para acessar algumas áreas,\né preciso uma assinatura.
+TXT_Credits_1	Criado e Produzido por
+TXT_Credits_2	Desenvolvido por
+TXT_Credits_3	Publicado por
+TXT_Credits_4	Visite:
+TXT_Credits_5	clubpenguin.com/pt
+TXT_Credits_6	disney.com.br
+TXT_Credits_7	Versão {0}
+TXT_Credits_8	Para suporte, visite:
+TXT_Credits_9	 help.disney.com/clubpenguin
+TXT_Copyright	© 2011 Disney
+TXT_OKAllCaps	OK
+TXT_TOU	Termos de Uso
+TXT_Transferring	Você está enviando moedas para {0}.
+TXT_ClubPenguin	Club Penguin
+TXT_TurboAllCaps	TURBO
+TXT_ErrorTitle	Erro!
+TXT_ChooseColor	Escolha Sua Cor
+TXT_CPAccount	Conta do Club Penguin
+TXT_TOU_Link	Ao continuar, você concorda com os\nTERMOS DE USO e POLÍTICA DE PRIVACIDADE.
+TXT_ReTypePassword	Redigite a Senha
+TXT_PenguinName	Nome do Pinguim
+TXT_Email	Email dos Pais
+TXT_FailToConnect	Você não está conectado com a internet. Verifique a conexão e tente novamente.
+TXT_ServerError	Erro de conexão com o Club Penguin. Desconecte, faça o login e tente de novo.
+TXT_MissingResultKey	Missing required result key
+TXT_PasswordEmptyConfirm	Confirme a senha
+TXT_PasswordMismatch	Senhas não conferem
+TXT_PlayNotFound	Cannot find the player in the authToken
+
+TXT_PlayerBanned	Esta conta não está acessível. Tente novamente mais tarde.
+TXT_PlayerBannedForever	Esta conta foi banida para sempre. Entre em contato com o Suporte do Club Penguin para maiores informações.
+TXT_InvalidToken	Invalid authToken
+TXT_UnauthorizedAccess	Failed to validate authToken
+TXT_AccountNotFound	Conta não encontrada
+TXT_UserNameTaken	Nome já utilizado. Tente: {0}.
+TXT_UserNameEmpty	Ops! Dê um nome para o seu pinguim.
+TXT_UserNameTooShort	Ops! O nome do pinguim deve ter pelo menos 4 caracteres ou números. Tente novamente.
+TXT_UserNameTooLong	O nome do pinguim deve conter menos que 12 caracteres ou números. Tente novamente.
+TXT_UserNameTooManyNumbers	Ops! O nome de usuário deve ter até 5 números. Tente novamente.
+TXT_UserNameTooManySpaces	Ops! O nome de usuário não pode utilizar dois espaços juntos. Tente novamente.
+TXT_UserNameTooFewChars	Ops! O nome de usuário deve conter no mínimo 1 letra. Tente novamente.
+TXT_UserNameWrongFormat	Ops! O nome do pinguim só pode conter letras, números e espaços. Tente novamente.
+TXT_UserNameBannedWord	Ops! Este nome de pinguim não é permitido. Tente novamente.
+TXT_UserNameNotAllowed	Ops! Este nome de usuário não é permitido. Tente novamente.
+TXT_PasswordEmpty	Senha não informada
+TXT_PasswordTooShort	Ops! A senha precisa de 6 ou mais letras ou números. Tente novamente.
+TXT_PasswordTooLong	A senha está muito longa. Deve conter entre 5 e 32 caracteres.
+TXT_PasswordMatchesUserName	Ops! A senha não pode ser igual ao nome de usuário. Tente novamente.
+TXT_PasswordEasyToGuess	Ops! Sua senha está muito fácil. Tente adicionar números e símbolos.
+TXT_EmailEmpty	Ops! Informe o email de seus pais ou responsáveis.
+TXT_EmailWrongFormat	Ops! Email incorreto. Tente novamente.
+TXT_EmailWrongBannedDomain	Este domínio de email não pode ser\nutilizado. Em caso de dúvidas, acesse\nsupport.clubpenguin.com/pt
+TXT_EmailTooManyAccounts	Ops! Há muitas contas associadas a este email. Acesse support.clubpenguin.com/pt
+TXT_WrongPlayerColor	Algo inesperado ocorreu ao criar a conta. Tente novamente.
+TXT_InvalidMissingParam	Missing required parameter or failed to parse and validate parameter
+TXT_PasswordlsAfirstName	Ops - A senha não pode ser seu primeiro nome. Tente novamente.
+TXT_ReachedDailyLimit	Ops! O limite para envio de moedas é de 4500.
+TXT_TurboModeAllCaps	MODO TURBO
+TXT_HaveYouUnlocked	Já destravou todos as modalidades?
+TXT_EmailBadISP	{0} não é um provedor de email válido. Verifique e tente novamente.
+TXT_LogoutConfirmation	Você quer desconectar?
+TXT_Yes	Sim
+TXT_No	Não
+TXT_CreateYourPenguin	Crie seu Pinguim
+TXT_NetworkError	Erro - O Club Penguin não está disponível no momento. Tente mais tarde.
+TXT_UserNameTaken1	Ops! Este nome de pinguim já existe. Tente usar um nome diferente.
+TXT_AuthorizationFailed	Nome do Pinguim e senha não conferem.
+TXT_PlayerActive	Ops! Este jogador já está conectado em outro local.
+TXT_PrivacyPolicy	Política de Privacidade
+TXT_TermsAndPrivacyTap	Toque para ver os TERMOS DE USO e POLÍTICA DE PRIVACIDADE.
+TXT_TermsAndPrivacyTap2lines	Toque para ver os\nTERMOS DE USO e POLÍTICA DE PRIVACIDADE.
+TXT_AndroidExit	Você tem certeza que deseja sair do jogo?
+TXT_AboutCP_Video	VER VÍDEO
+TXT_RateMyAppTitle	Classifique o Lança-Puffle
+TXT_RateMyAppMsg	Se você gosta de jogar o Lança-Puffle, por favor dê uma classificação na iTunes® Store. Obrigado!
+TXT_RateMyAppRateButton	Classifique o Lança-Puffle
+TXT_RateMyAppNoButton	Não, obrigado.
+TXT_RateMyAppRemindButton	Lembre-me mais tarde
+TXT_Bonus	BONUS
+TXT_RateMyAppMsgAndroid	Se você gosta de jogar o Lança-Puffle, por favor dê uma classificação na Android Market. Obrigado!
+TXT_UPSELL_TITLE	VERSÃO COMPLETA DISPONÍVEL PARA COMPRA
+TXT_UPSELL_POINTS	•  60 NÍVEIS DE ALTA VELOCIDADE\n•  DESTRAVE 3 MODOS INCRÍVEIS\n•  DESAFIE O CHEFE CARANGUEJO
+TXT_Disclaimer	É necessário adquirir o aplicativo.

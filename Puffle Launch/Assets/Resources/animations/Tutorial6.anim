@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Tutorial6
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - time: 0.6666666
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -0, y: -7.499999, z: -0}
+        tangentMode: 0
+      - time: 1.3333333
+        value: {x: 0, y: -5, z: 0}
+        inSlope: {x: 0, y: -7.499999, z: 0}
+        outSlope: {x: 6.8571424, y: -0, z: -0}
+        tangentMode: 0
+      - time: 1.9166666
+        value: {x: 4, y: -5, z: 0}
+        inSlope: {x: 6.8571424, y: 0, z: 0}
+        outSlope: {x: -9.999998, y: -0, z: -0}
+        tangentMode: 0
+      - time: 2.6666667
+        value: {x: -3.5, y: -5, z: 0}
+        inSlope: {x: -9.999998, y: 0, z: 0}
+        outSlope: {x: 21.899967, y: 28.677238, z: -0}
+        tangentMode: 0
+      - time: 2.9333334
+        value: {x: 2.3399909, y: 2.6472633, z: 0}
+        inSlope: {x: 21.899967, y: 28.677238, z: 0}
+        outSlope: {x: -14.75249, y: -16.372, z: -0}
+        tangentMode: 0
+      - time: 3.1499999
+        value: {x: -0.85637885, y: -0.8999998, z: 0}
+        inSlope: {x: -14.75249, y: -16.372, z: 0}
+        outSlope: {x: 4.2818933, y: 4.499998, z: -0}
+        tangentMode: 0
+      - time: 3.35
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 4.2818933, y: 4.499998, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Slingshot/Barrel
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.1, y: 0.13, z: -2}
+        inSlope: {x: -0.82758623, y: 0.6448276, z: 0}
+        outSlope: {x: -0.82758623, y: 0.6448276, z: 0}
+        tangentMode: 0
+      - time: 2.9
+        value: {x: -2.5, y: 2, z: -2}
+        inSlope: {x: Infinity, y: Infinity, z: 0}
+        outSlope: {x: -13.714288, y: -0, z: -34.28572}
+        tangentMode: 0
+      - time: 3.4833333
+        value: {x: -10.5, y: 2, z: -22}
+        inSlope: {x: -13.714288, y: 0, z: -34.28572}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Puffle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 14, y: 10.990285, z: 2}
+        inSlope: {x: -21, y: 0, z: 2.25}
+        outSlope: {x: -20.279358, y: -0, z: 2.922598}
+        tangentMode: 0
+      - time: 0.6666667
+        value: {x: 0.48042706, y: 10.990285, z: 3.9483986}
+        inSlope: {x: -20.279358, y: 0, z: 2.922598}
+        outSlope: {x: 4.4703484E-08, y: -0, z: 9.875444}
+        tangentMode: 0
+      - time: 1.3333334
+        value: {x: 0.4804271, y: 10.990285, z: 10.532028}
+        inSlope: {x: 4.4703484E-08, y: 0, z: 9.875444}
+        outSlope: {x: -9.053382, y: 0, z: -0.014896836}
+        tangentMode: 0
+      - time: 1.9166666
+        value: {x: -4.8007116, y: 10.990285, z: 10.523338}
+        inSlope: {x: -9.053382, y: 0, z: -0.014896834}
+        outSlope: {x: 13.270698, y: 0, z: -0.014896834}
+        tangentMode: 0
+      - time: 2.6666667
+        value: {x: 5.152313, y: 10.990285, z: 10.512166}
+        inSlope: {x: 13.270698, y: 0, z: -0.014896834}
+        outSlope: {x: -0, y: 0, z: -0.014896834}
+        tangentMode: 0
+      - time: 3.4833333
+        value: {x: 5.152313, y: 10.990285, z: 10.5}
+        inSlope: {x: 0, y: 0, z: -0.014896836}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: LeftThumb
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 2
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events:
+  - time: 0
+    functionName: SetPuffleParent
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: RemovePressAnim
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: SetPuffleSprite
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 1
+    messageOptions: 0
+  - time: 0.6666667
+    functionName: ShowPressAnim
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.65
+    functionName: RemovePressAnim
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.9
+    functionName: LaunchPuffleAnim
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

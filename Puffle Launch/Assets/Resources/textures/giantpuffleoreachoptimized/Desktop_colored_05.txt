@@ -1,0 +1,7 @@
+Offset: 30 0 718 556
+Start: 0 468
+Pixels To Next Column and Row: 689 557
+Cols: 1
+Rows: 1
+Total Cells: 1
+Original Size: 764 556

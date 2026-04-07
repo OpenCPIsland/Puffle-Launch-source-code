@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1804996442130542
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4893188789604743}
+  - 114: {fileID: 114547037115109531}
+  - 114: {fileID: 114047850706927429}
+  m_Layer: 0
+  m_Name: ScrollList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4893188789604743
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1804996442130542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.194908, y: 11.894897, z: -46.498188}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114547037115109531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1804996442130542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5fab7d4aa3282141e20bc7906fbe03d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  touchScroll: 1
+  scrollWheelFactor: 100
+  scrollDecelCoef: 0.2
+  snap: 1
+  minSnapDuration: 1
+  snapEasing: 41
+  slider: {fileID: 0}
+  orientation: 0
+  direction: 0
+  alignment: 1
+  viewableArea: {x: 36.147926, y: 12.938398}
+  unitsInPixels: 0
+  renderCamera: {fileID: 0}
+  itemSpacing: 5
+  spacingAtEnds: 1
+  extraEndSpacing: 0
+  activateWhenAdding: 0
+  clipContents: 0
+  clipWhenMoving: 0
+  positionItemsImmediately: 0
+  dragThreshold: 0
+  sceneItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  prefabItems: []
+  scriptWithMethodToInvoke: {fileID: 0}
+  methodToInvokeOnSelect:
+  manager: {fileID: 0}
+  detargetOnDisable: 0
+  positionEasing: -1
+  positionEaseDuration: 0
+  positionEaseDelay: 0
+  blockInputWhileEasing: 1
+  repositionOnEnable: 1
+--- !u!114 &114047850706927429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1804996442130542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 371dec79d72b86ebf60419f9027e4929, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ListItem: {fileID: 1428947620428211, guid: 5835a70d6e982a64ab28824a621a031b, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1804996442130542}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

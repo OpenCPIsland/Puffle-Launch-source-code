@@ -1,0 +1,151 @@
+TXT_PauseMenu	MENÜ
+TXT_PauseMenu2	TON AUS
+TXT_PauseMenu4	NEUSTART
+TXT_Loggedinas	Angemeldet als
+TXT_Transfer	Übertragen
+TXT_Coins	Münzen
+TXT_LogOut	Abmelden
+TXT_MainMenu	Hauptmenü
+TXT_CoinsTransferred	Übertragene Münzen
+TXT_Error	Fehler - Münzen wurden nicht übertragen.
+TXT_TransferYourCoins	Übertrage Münzen zu clubpenguin.de
+TXT_EndGameScreen	Menü
+TXT_Instructions	TIPPE ZUM START
+TXT_Instructions4	ZUM ZIELEN\nKANONE ZIEHEN.
+TXT_Instructions5	KONTROLLPUNKT!
+TXT_Instructions6	IN EINIGEN WOLKEN\nSIND VERBORGENE\nGEHEIMNISSE.
+TXT_Instructions7	ZIEHE UND LASS LOS,\nUM LOSZUFLIEGEN.
+TXT_Area1	BLAUER HIMMEL
+TXT_Area2	LIMO-HIMMEL
+TXT_New	NEU
+TXT_TimeTrial	AUF ZEIT!
+TXT_BestTime	Bestzeit:
+TXT_Good1	GUT!
+TXT_Good2	COOL!
+TXT_Good3	TOLL!
+TXT_Good4	SPITZE!
+TXT_NewRecord	NEUE\nBESTZEIT!
+TXT_Total	GESAMT
+TXT_Play	SPIELEN
+TXT_Unmute	TON EIN
+TXT_Resume	SPIELEN
+TXT_Password	Passwort eingeben
+TXT_Waiting	Waiting
+TXT_On	Ein
+TXT_Off	Aus
+TXT_Of	von
+TXT_Instructions2a	TIPPEN\nNACH LINKS
+TXT_Instructions2b	TIPPEN\nNACH RECHTS
+TXT_Turbo	Turbo
+TXT_TimeTrialLocked	Sammle alle Puffle-Os und schalte so den Zeit-Modus frei.
+TXT_TimeTrialUnlocked	Du hast den Zeit-Modus\nfreigeschaltet.
+TXT_TimeTrialSilver	Du hast im Zeit-Modus die Silbermedaille gewonnen!
+TXT_TimeTrialGold	Du hast im Zeit-Modus die Goldmedaille gewonnen!
+TXT_TurboModeLocked	Spiele den Turbo-Modus frei, indem du alle Levels in einer Zeit von unter {0} schaffst.
+TXT_TurboModeUnlocked	Du hast den Turbo-Modus\nfreigeschaltet.
+TXT_SlowMotionLocked	Schalte die Zeitlupe frei, indem du alle Levels im Turbo-Modus vollendest.
+TXT_SlowMotionUnlocked	Du hast die Zeitlupe\nfreigeschaltet!
+TXT_SlowMotionInstructions	Wenn du dies siehst, tippe hier, um die Zeitlupe ein- oder auszuschalten.
+TXT_Ok	Ok.
+TXT_BeatTheClock	Schaffst du es in der Zeit?
+TXT_NewGoal	Ziel:
+TXT_Login	Anmelden
+TXT_SlowMo	Zeitlupe
+TXT_SlowMoAllCaps	ZEITLUPE
+TXT_CreateAccount	Erstelle einen Pinguin!
+TXT_NEXT	O.K.
+TXT_TapToTransfer	Übertragen
+TXT_Level	Level {0}
+TXT_BlueSkyNoCaps	Blauer Himmel
+TXT_SodaSunsetNoCaps	Limo-Himmel
+TXT_AboutCP	Spiele auf clubpenguin.de
+TXT_Credits	Mitwirkende
+TXT_AboutCP_pg1	Mach mit bei diesem großen Spaß!
+TXT_AboutCP_pg2	Adoptiere einen Puffle und erlebe die Action!
+TXT_AboutCP_pg3	Kämpfe bei Card-Jitsu gegen Ninjas.
+TXT_AboutCP_pg4	Beschütze die Insel als Geheimagent!
+TXT_AboutCP_pg5	Mach mit deinen Freunden Party!
+TXT_AboutCP_pg5b	Einige Funktionen erfordern\n eine kostenpflichtige Mitgliedschaft.
+TXT_Credits_1	Erdacht und erschaffen von
+TXT_Credits_2	Entwickelt von
+TXT_Credits_3	Herausgegeben von
+TXT_Credits_4	Besuche uns unter:
+TXT_Credits_5	clubpenguin.de
+TXT_Credits_6	disney.go.com
+TXT_Credits_7	Version {0}
+TXT_Credits_8	Die Kundenbetreuung findest du unter:
+TXT_Credits_9	 help.disney.com/clubpenguin
+TXT_Copyright	© 2011 Disney
+TXT_OKAllCaps	O.K.
+TXT_TOU	Nutzungsbedingungen
+TXT_Transferring	Du überträgst Münzen an {0}.
+TXT_ClubPenguin	Club Penguin
+TXT_TurboAllCaps	TURBO
+TXT_ErrorTitle	Fehler!
+TXT_ChooseColor	Wähle deine Farbe:
+TXT_CPAccount	Club Penguin-Benutzerkonto
+TXT_TOU_Link	Wenn du fortfährst, erklärst du dich mit den\nNUTZUNGSBEDINGUNGEN und DATENSCHUTZRICHTLINIEN einverstanden.
+TXT_ReTypePassword	Passwort bestätigen
+TXT_PenguinName	Pinguinname
+TXT_Email	E-Mail der Eltern
+TXT_FailToConnect	Keine Verbindung zum Internet. Bitte überprüfe deine Einstellungen und versuche es erneut.
+TXT_ServerError	Fehler bei der Verbindung mit Club Penguin aufgetreten. Bitte melde dich zuerst ab bevor du versuchst dich erneut anzumelden.
+TXT_MissingResultKey	Missing required result key
+TXT_PasswordEmptyConfirm	Hoppla - Du musst dein Passwort ein zweites Mal bestätigen.
+TXT_PasswordMismatch	Hoppla - Die von dir eingegebenen Passwörter sind nicht identisch. Versuche es bitte erneut.
+TXT_PlayNotFound	Cannot find the player in the authToken
+
+TXT_PlayerBanned	Auf dieses Konto kann nicht zugegriffen werden. Bitte versuche es später erneut.
+TXT_PlayerBannedForever	Dieses Konto wurde für immer gesperrt. Bitte kontaktiere den Club Penguin Community-Support für weitere Hilfe.
+TXT_InvalidToken	Invalid authToken
+TXT_UnauthorizedAccess	Failed to validate authToken
+TXT_AccountNotFound	Hoppla - Pinguin wurde nicht gefunden.
+TXT_UserNameTaken	Hoppla - Dieser Pinguinname ist bereits vergeben. Wie wäre es mit {0}?
+TXT_UserNameEmpty	Hoppla - Du musst deinem Pinguin einen Namen geben.
+TXT_UserNameTooShort	Hoppla - Dein Pinguinname muss mindestens 4 Buchstaben oder Zahlen enthalten. Versuche es erneut.
+TXT_UserNameTooLong	Hoppla - Dein Pinguinname muss weniger als 12 Buchstaben und Zahlen enthalten. Versuche es erneut.
+TXT_UserNameTooManyNumbers	Hoppla - Pinguinnamen dürfen nicht mehr als 5 Zahlen enthalten. Versuche es erneut.
+TXT_UserNameTooManySpaces	Hoppla - Pinguinnamen dürfen nicht 2 Leerzeichen in Folge enthalten. Versuche es erneut.
+TXT_UserNameTooFewChars	Hoppla - Pinguinnamen müssen mindestens 1 Buchstaben enthalten. Versuche es erneut.
+TXT_UserNameWrongFormat	Hoppla - Pinguinnamen dürfen nur Buchstaben, Zahlen oder Leerzeichen enthalten. Versuche es erneut.
+TXT_UserNameBannedWord	Hoppla - Dieser Pinguinname ist nicht erlaubt. Versuche es erneut.
+TXT_UserNameNotAllowed	Hoppla - Dieser Pinguinname ist nicht erlaubt. Versuche es erneut.
+TXT_PasswordEmpty	Hoppla - Du musst dein Passwort ein zweites Mal bestätigen.
+TXT_PasswordTooShort	Hoppla - Dein Passwort muss 6 oder mehr Buchstaben oder Zahlen enthalten. Versuche es erneut.
+TXT_PasswordTooLong	Hoppla - Dein Passwort muss aus 6 bis 32 Buchstaben oder Zahlen bestehen. Versuche es erneut.
+TXT_PasswordMatchesUserName	Hoppla - Dein Passwort kann nicht mit deinem Pinguinnamen identisch sein. Versuche es erneut.
+TXT_PasswordEasyToGuess	Hoppla - Dein Passwort ist sehr leicht zu erraten. Versuche bitte Zahlen und Buchstaben zu verwenden.
+TXT_EmailEmpty	Hoppla - Gib bitte die E-Mail-Adresse eines Elternteils ein.
+TXT_EmailWrongFormat	Hoppla - Diese E-Mail-Adresse ist nicht korrekt. Versuche es erneut.
+TXT_EmailWrongBannedDomain	Dieser Domainname kann nicht verwendet werden. Informationen dazu findest du auf support.clubpenguin.com/de
+TXT_EmailTooManyAccounts	Hoppla - Mit dieser E-Mail wurden zu viele Benutzerkonten angelegt. Nimm bitte über support.clubpenguin.com/de Kontakt mit uns auf.
+TXT_WrongPlayerColor	Beim Erstellen deines Pinguins ist ein Fehler aufgetreten. Bitte versuche es erneut.
+TXT_InvalidMissingParam	Missing required parameter or failed to parse and validate parameter
+TXT_PasswordlsAfirstName	Hoppla - Dein Passwort darf kein Vorname sein. Versuche es erneut.
+TXT_ReachedDailyLimit	Hoppla - Das Tageslimit für die Münzübertragung beträgt 4500.
+TXT_TurboModeAllCaps	TURBO-MODUS
+TXT_HaveYouUnlocked	Hey, großer Abenteurer. Hast du schon alle Spielmodi freigeschaltet? 
+TXT_EmailBadISP	{0} ist kein gültiger E-Mail-Anbieter. Überprüfe die Schreibweise und versuche es erneut.
+TXT_LogoutConfirmation	Willst du dich wirklich abmelden?
+TXT_Yes	Ja
+TXT_No	Nein
+TXT_CreateYourPenguin	Erstelle deinen Pinguin!
+TXT_NetworkError	Fehler - Club Penguin ist derzeit nicht verfügbar. Versuche, dich später erneut anzumelden.
+TXT_UserNameTaken1	Hoppla - Dieser Pinguinname ist bereits vergeben. Versuche es mit einem anderen Namen.
+TXT_AuthorizationFailed	Hoppla - Pinguinname oder Passwort nicht korrekt. Versuche es erneut.
+TXT_PlayerActive	Hoppla - Dieser Pinguin ist bereits an anderer Stelle angemeldet.
+TXT_PrivacyPolicy	Datenschutzrichtlinien
+TXT_TermsAndPrivacyTap	Tippe, um die NUTZUNGSBEDINGUNGEN und DATENSCHUTZRICHTLINIEN zu lesen.
+TXT_TermsAndPrivacyTap2lines	Tippe, um die NUTZUNGSBEDINGUNGEN\nund die DATENSCHUTZRICHTLINIEN zu lesen.
+TXT_AndroidExit	Willst du das Spiel wirklich beenden?
+TXT_AboutCP_Video	Video abspielen
+TXT_RateMyAppTitle	Bewerte Puffle-Flug
+TXT_RateMyAppMsg	Wenn dir Puffle-Flug gefällt, gehe zum App Store und bewerte das Spiel. Danke für deine Unterstützung!
+TXT_RateMyAppRateButton	Bewerte Puffle-Flug
+TXT_RateMyAppNoButton	Nein, danke
+TXT_RateMyAppRemindButton	Später erinnern
+TXT_Bonus	BONUS
+TXT_RateMyAppMsgAndroid	Wenn dir Puffle-Flug gefällt, gehe zum Android Market und bewerte das Spiel. Danke für deine Unterstützung!
+TXT_UPSELL_TITLE	VOLLVERSION JETZT ZUM KAUF ERHÄLTLICH!
+TXT_UPSELL_POINTS	•  60 HOCHGESCHWINDIGKEIT-LEVELS\n•  SCHALTE 3 EXTREME MODI FREI\n•  FORDERE DEN KRABBEN-BOSS HERAUS
+TXT_Disclaimer	Kauf erforderlich

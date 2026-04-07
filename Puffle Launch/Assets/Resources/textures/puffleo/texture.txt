@@ -1,0 +1,6 @@
+Offset: 0 0 30 46
+Start: 0 210
+Pixels To Next Column and Row: 31 47
+Cols: 8
+Rows: 5
+Total Cells: 12

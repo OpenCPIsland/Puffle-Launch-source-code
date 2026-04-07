@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ObstacleHitRight
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: -4.1675563, w: -0.3646145}
+        outSlope: {x: 0, y: 0, z: -4.1675563, w: -0.3646145}
+        tangentMode: 0
+      - time: 0.041666668
+        value: {x: 0, y: 0, z: -0.17364818, w: 0.9848077}
+        inSlope: {x: 0, y: 0, z: 1.0458691, w: -0.045663357}
+        outSlope: {x: 0, y: 0, z: 1.0458691, w: -0.045663357}
+        tangentMode: 0
+      - time: 0.083333336
+        value: {x: 0, y: 0, z: 0.087155744, w: 0.9961947}
+        inSlope: {x: 0, y: 0, z: 1.5603456, w: 0.17088604}
+        outSlope: {x: 0, y: 0, z: 1.5603456, w: 0.17088604}
+        tangentMode: 0
+      - time: 0.125
+        value: {x: 0, y: 0, z: -0.043619387, w: 0.99904823}
+        inSlope: {x: 0, y: 0, z: -1.3861624, w: 0.04083753}
+        outSlope: {x: 0, y: 0, z: -1.3861624, w: 0.04083753}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: 0, y: 0, z: -0.028357789, w: 0.99959785}
+        inSlope: {x: 0, y: 0, z: 0.73286146, w: 0.009593723}
+        outSlope: {x: 0, y: 0, z: 0.73286146, w: 0.009593723}
+        tangentMode: 0
+      - time: 0.20833334
+        value: {x: 0, y: 0, z: 0.01745241, w: 0.9998477}
+        inSlope: {x: 0, y: 0, z: 0.4777351, w: 0.004039049}
+        outSlope: {x: 0, y: 0, z: 0.4777351, w: 0.004039049}
+        tangentMode: 0
+      - time: 0.25
+        value: {x: 0, y: 0, z: 0.011453478, w: 0.99993443}
+        inSlope: {x: 0, y: 0, z: -0.20942886, w: 0.0018274783}
+        outSlope: {x: 0, y: 0, z: -0.20942886, w: 0.0018274783}
+        tangentMode: 0
+      - time: 0.2916667
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: -0.27488333, w: 0.0015735619}
+        outSlope: {x: 0, y: 0, z: -0.27488333, w: 0.0015735619}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path:
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 24
+  m_WrapMode: 1
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

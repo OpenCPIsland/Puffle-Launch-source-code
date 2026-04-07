@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Tutorial0
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -6.555134E-07, y: 3.9999995, z: -7.5}
+        inSlope: {x: 2.0976447E-06, y: 0, z: 16.45351}
+        outSlope: {x: 2.0976447E-06, y: 0, z: 16.45351}
+        tangentMode: 0
+      - time: 0.9166667
+        value: {x: -6.555134E-07, y: 3.9999995, z: 7.582385}
+        inSlope: {x: 2.0976447E-06, y: 0, z: 0}
+        outSlope: {x: 2.0976447E-06, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1.6666667
+        value: {x: -6.555134E-07, y: 3.9999995, z: 7.582385}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Puffle
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -1.0909091
+        outSlope: -1.0909091
+        tangentMode: 0
+      - time: 0.9166667
+        value: 0
+        inSlope: -1.0909091
+        outSlope: -1.0909091
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_Emit
+    path: Puffle/SparkEmitter
+    classID: 88
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -6
+        outSlope: -6
+        tangentMode: 0
+      - time: 0.41666666
+        value: -2.5
+        inSlope: -0.5
+        outSlope: -0.5
+        tangentMode: 0
+      - time: 0.9166667
+        value: 0
+        inSlope: 5
+        outSlope: 5
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: worldVelocity.y
+    path: Puffle/SparkEmitter
+    classID: 88
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 2
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events:
+  - time: 0
+    functionName: RemovePressAnim
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

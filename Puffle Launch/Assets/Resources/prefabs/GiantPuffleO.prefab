@@ -1,0 +1,249 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1149476992893728
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4627546438071673}
+  - 33: {fileID: 33756682437874095}
+  - 23: {fileID: 23377902803190911}
+  - 135: {fileID: 135064762029291969}
+  - 114: {fileID: 114083785609767173}
+  - 114: {fileID: 114781707180509172}
+  - 114: {fileID: 114786750431706028}
+  m_Layer: 0
+  m_Name: GiantPuffleO
+  m_TagString: FinishTemplate
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4627546438071673
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149476992893728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!33 &33756682437874095
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149476992893728}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23377902803190911
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149476992893728}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: c6c1eede7cee9324ea2586ecbf574480, type: 2}
+  m_SubsetIndices:
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!135 &135064762029291969
+SphereCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149476992893728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 50
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114083785609767173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149476992893728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893d39375b454a2be05ad7ea966d1595, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mReachedSound: {fileID: 8300000, guid: 525beff6393691a489b17e4d15970c47, type: 3}
+--- !u!114 &114781707180509172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149476992893728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c434e591a7f9b3391d0e7df259ce246f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  defaultAnimation: -1
+  defaultOnStart: 0
+  manager: {fileID: 0}
+  animations:
+  - name: GiantPuffleO
+    stream:
+    framerate: 24
+    looping: 1
+    preload: 1
+    clips:
+    - stringTiles:
+      - Textures/GiantPuffleO/texture
+      urls:
+      - /Textures/GiantPuffleO/texture.png
+      stride: {x: 150, y: 243}
+      offset: {x: -75.5, y: -72.5}
+      cols: 6
+      rows: 4
+      total: 12
+      useHighRes: 0
+    extra:
+      background: 0
+      frames:
+      sprite: {fileID: 0}
+  - name: GiantPuffleOBox
+    stream:
+    framerate: 24
+    looping: 0
+    preload: 1
+    clips:
+    - stringTiles:
+      - Textures/GiantPuffleOBox/GiantPuffleOBox_texture_01
+      urls:
+      - GiantPuffleOBox_texture_01
+      stride: {x: 221, y: 313}
+      offset: {x: -115, y: -163}
+      cols: 4
+      rows: 3
+      total: 12
+      useHighRes: 0
+    - stringTiles:
+      - Textures/GiantPuffleOBox/GiantPuffleOBox_texture_02
+      urls:
+      - GiantPuffleOBox_texture_02
+      stride: {x: 220, y: 141}
+      offset: {x: -117, y: -165}
+      cols: 4
+      rows: 7
+      total: 7
+      useHighRes: 0
+    extra:
+      background: 0
+      frames:
+      sprite: {fileID: 0}
+  - name: GiantPuffleOReach
+    stream:
+    framerate: 24
+    looping: 0
+    preload: 1
+    clips:
+    - stringTiles:
+      - Textures/GiantPuffleOReachOptimized/Desktop_colored_01
+      urls:
+      - Desktop_colored_01
+      stride: {x: 230, y: 259}
+      offset: {x: -127, y: -109}
+      cols: 4
+      rows: 3
+      total: 12
+      useHighRes: 0
+    - stringTiles:
+      - Textures/GiantPuffleOReachOptimized/Desktop_colored_02
+      urls:
+      - Desktop_colored_02
+      stride: {x: 437, y: 374}
+      offset: {x: -230, y: -181}
+      cols: 2
+      rows: 2
+      total: 2
+      useHighRes: 0
+    - stringTiles:
+      - Textures/GiantPuffleOReachOptimized/Desktop_colored_03
+      urls:
+      - Desktop_colored_03
+      stride: {x: 590, y: 496}
+      offset: {x: -316, y: -262}
+      cols: 1
+      rows: 2
+      total: 2
+      useHighRes: 0
+    - stringTiles:
+      - Textures/GiantPuffleOReachOptimized/Desktop_colored_04
+      urls:
+      - Desktop_colored_04
+      stride: {x: 659, y: 549}
+      offset: {x: -340, y: -278}
+      cols: 1
+      rows: 1
+      total: 1
+      useHighRes: 0
+    - stringTiles:
+      - Textures/GiantPuffleOReachOptimized/Desktop_colored_05
+      urls:
+      - Desktop_colored_05
+      stride: {x: 689, y: 557}
+      offset: {x: -352, y: -278}
+      cols: 1
+      rows: 1
+      total: 1
+      useHighRes: 0
+    - stringTiles:
+      - Textures/GiantPuffleOReachOptimized/Desktop_colored_06
+      urls:
+      - Desktop_colored_06
+      stride: {x: 708, y: 475}
+      offset: {x: -353, y: -196}
+      cols: 1
+      rows: 2
+      total: 2
+      useHighRes: 0
+    extra:
+      background: 0
+      frames:
+      sprite: {fileID: 0}
+  sharedMaterial: 0
+  zoomInvariant: 0
+--- !u!114 &114786750431706028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149476992893728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a3ce3962136729af6a9b55fa7032276, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  elasticMultiplier: 0.01
+  friction: 0.1
+  restoreElasticity: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1149476992893728}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

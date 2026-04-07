@@ -1,0 +1,151 @@
+TXT_PauseMenu	MENU
+TXT_PauseMenu2	MUTE
+TXT_PauseMenu4	RESTART
+TXT_Loggedinas	Logged in as
+TXT_Transfer	Transfer
+TXT_Coins	Coins
+TXT_LogOut	Logout
+TXT_MainMenu	Main Menu
+TXT_CoinsTransferred	Coins Transferred 
+TXT_Error	Error - Coins did not transfer.
+TXT_TransferYourCoins	Transfer coins to clubpenguin.com
+TXT_EndGameScreen	Menu
+TXT_Instructions	TAP TO LAUNCH
+TXT_Instructions4	DRAG CANNON\nTO AIM
+TXT_Instructions5	CHECKPOINT! 
+TXT_Instructions6	SOME CLOUDS HAVE\nHIDDEN SECRETS
+TXT_Instructions7	DRAG AND RELEASE\nTO LAUNCH
+TXT_Area1	BLUE SKY
+TXT_Area2	SODA SUNSET
+TXT_New	NEW
+TXT_TimeTrial	TIME TRIAL!
+TXT_BestTime	Best time:
+TXT_Good1	GOOD!
+TXT_Good2	COOL!
+TXT_Good3	GREAT!
+TXT_Good4	AWESOME!
+TXT_NewRecord	NEW\nBEST!
+TXT_Total	TOTAL
+TXT_Play	PLAY
+TXT_Unmute	UNMUTE
+TXT_Resume	PLAY
+TXT_Password	Enter Password
+TXT_Waiting	Waiting
+TXT_On	On
+TXT_Off	Off
+TXT_Of	of
+TXT_Instructions2a	TAP TO GO LEFT
+TXT_Instructions2b	TAP TO GO RIGHT
+TXT_Turbo	Turbo
+TXT_TimeTrialLocked	Unlock Time Trial Mode by collecting all the Puffle O's.
+TXT_TimeTrialUnlocked	You've unlocked Time Trial Mode!
+TXT_TimeTrialSilver	You've achieved Silver in Time Trial Mode!
+TXT_TimeTrialGold	You've achieved Gold in Time Trial Mode!
+TXT_TurboModeLocked	Unlock Turbo Mode by beating all levels in a combined time of less than {0}.
+TXT_TurboModeUnlocked	You've unlocked Turbo Mode!
+TXT_SlowMotionLocked	Unlock Slo-Mo by completing all levels in Turbo Mode.
+TXT_SlowMotionUnlocked	You've unlocked Slo-Mo!
+TXT_SlowMotionInstructions	When you see this, tap it to turn Slo-Mo on or off.
+TXT_Ok	Ok
+TXT_BeatTheClock	Can you beat the clock?
+TXT_NewGoal	Goal:
+TXT_Login	Login
+TXT_SlowMo	Slo-Mo
+TXT_SlowMoAllCaps	SLO-MO
+TXT_CreateAccount	Create a Penguin!
+TXT_NEXT	NEXT
+TXT_TapToTransfer	Tap to transfer
+TXT_Level	Level {0}
+TXT_BlueSkyNoCaps	Blue Sky
+TXT_SodaSunsetNoCaps	Soda Sunset
+TXT_AboutCP	Play clubpenguin.com
+TXT_Credits	Credits
+TXT_AboutCP_pg1	Be part of the adventure!
+TXT_AboutCP_pg2	Adopt a pet puffle and join the action!
+TXT_AboutCP_pg3	Battle ninjas at Card-Jitsu.
+TXT_AboutCP_pg4	Protect the island as a secret agent.
+TXT_AboutCP_pg5	Party with your friends!
+TXT_AboutCP_pg5b	Some features require \n a paid membership. 
+TXT_Credits_1	Created and Produced by
+TXT_Credits_2	Developed by
+TXT_Credits_3	Published by
+TXT_Credits_4	Visit us at:
+TXT_Credits_5	clubpenguin.com
+TXT_Credits_6	disney.go.com
+TXT_Credits_7	Version {0}
+TXT_Credits_8	For customer support, visit:
+TXT_Credits_9	 help.disney.com/clubpenguin
+TXT_Copyright	© 2011 Disney
+TXT_OKAllCaps	OK
+TXT_TOU	Terms of Use
+TXT_Transferring	You are transferring coins to {0}.
+TXT_ClubPenguin	Club Penguin
+TXT_TurboAllCaps	TURBO
+TXT_ErrorTitle	Error!
+TXT_ChooseColor	Choose Your Color
+TXT_CPAccount	Club Penguin Account
+TXT_TOU_Link	By continuing, you agree to the\nTERMS and PRIVACY agreements.
+TXT_ReTypePassword	Re-type Password
+TXT_PenguinName	Penguin Name
+TXT_Email	Parent's Email
+TXT_FailToConnect	You are not connected to the internet. Please check your settings and try again.
+TXT_ServerError	There was a problem connecting to Club Penguin. Please log out of your account, log back in, and try again.
+TXT_MissingResultKey	Missing required result key
+TXT_PasswordEmptyConfirm	Oops - You must type your password twice for confirmation.
+TXT_PasswordMismatch	Oops - The passwords you entered do not match. Please try again.
+TXT_PlayNotFound	Cannot find the player in the authToken
+
+TXT_PlayerBanned	This account is not accessible. Please try again later.
+TXT_PlayerBannedForever	This account has been banned forever. Please contact Club Penguin Community Support for further assistance. 
+TXT_InvalidToken	Invalid authToken
+TXT_UnauthorizedAccess	Failed to validate authToken
+TXT_AccountNotFound	Oops - Penguin not found.
+TXT_UserNameTaken	Oops - This penguin name is already taken. Please try {0}.
+TXT_UserNameEmpty	Oops - Please name your penguin.
+TXT_UserNameTooShort	Oops - Your penguin name has to be at least 4 letters or numbers long. Please try again. 
+TXT_UserNameTooLong	Oops - Your penguin name has to be shorter than 12 letters or numbers. Please try again.
+TXT_UserNameTooManyNumbers	Oops - Penguin names can only have up to 5 numbers. Please try again. 
+TXT_UserNameTooManySpaces	Oops - Penguin names can’t have 2 spaces together. Please try again. 
+TXT_UserNameTooFewChars	Oops - Penguin names need at least 1 letter. Please try again. 
+TXT_UserNameWrongFormat	Oops - Penguin names can only have letters, numbers and spaces. Please try again. 
+TXT_UserNameBannedWord	Oops - This penguin name isn’t allowed. Please try again. 
+TXT_UserNameNotAllowed	Oops - This penguin name isn’t allowed. Please try again. 
+TXT_PasswordEmpty	Oops - You must type your password twice for confirmation.
+TXT_PasswordTooShort	Oops - Your password needs 6 or more letters or numbers. Please try again. 
+TXT_PasswordTooLong	Oops - Your password needs to be between 6 and 32 letters or numbers. Please try again. 
+TXT_PasswordMatchesUserName	Oops - Your password can’t be the same as your penguin name. Please try again.
+TXT_PasswordEasyToGuess	Oops - Your password is too easy to guess. Please try adding numbers and symbols.
+TXT_EmailEmpty	Oops - Please enter your parent's email address.
+TXT_EmailWrongFormat	Oops - This email address isn’t correct. Please try again. 
+TXT_EmailWrongBannedDomain	This domain name can’t be used right now. For more info, please contact us at support.clubpenguin.com. 
+TXT_EmailTooManyAccounts	Oops - There are already too many penguin accounts linked to this email. Please contact us at support.clubpenguin.com.
+TXT_WrongPlayerColor	There was a problem creating your penguin. Please try again.
+TXT_InvalidMissingParam	Missing required parameter or failed to parse and validate parameter
+TXT_PasswordlsAfirstName	Oops - Your password can’t be a first name. Please try again.
+TXT_ReachedDailyLimit	Oops - The daily coin transfer limit is 4500.	
+TXT_TurboModeAllCaps	TURBO MODE
+TXT_HaveYouUnlocked	Hey Daredevil. Have you unlocked all the game modes yet?
+TXT_EmailBadISP	{0} isn’t a valid email provider. Please check the spelling and try again.
+TXT_LogoutConfirmation	Are you sure you want to logout?
+TXT_Yes	Yes
+TXT_No	No
+TXT_CreateYourPenguin	Create your Penguin!
+TXT_NetworkError	Error - Club Penguin is currently unavailable. Please try logging in later. 
+TXT_UserNameTaken1	Oops - This penguin name is already taken. Try using a different name.
+TXT_AuthorizationFailed	Oops - Penguin name or password is incorrect. Please try again.
+TXT_PlayerActive	Oops - This penguin is already logged in somewhere else.
+TXT_PrivacyPolicy	Privacy Policy
+TXT_TermsAndPrivacyTap	Tap to see the TERMS and PRIVACY agreements.
+TXT_TermsAndPrivacyTap2lines	Tap to see the\nTERMS and PRIVACY agreements.
+TXT_AndroidExit	Are you sure you want to exit the game?
+TXT_AboutCP_Video	PLAY VIDEO
+TXT_RateMyAppTitle	Rate Puffle Launch
+TXT_RateMyAppMsg	If you enjoy playing Puffle Launch, please rate it in the App store. Thanks for your support!
+TXT_RateMyAppRateButton	Rate Puffle Launch
+TXT_RateMyAppNoButton	No, thanks
+TXT_RateMyAppRemindButton	Remind me later
+TXT_Bonus	BONUS
+TXT_RateMyAppMsgAndroid	If you enjoy playing Puffle Launch, please rate it in the Android Market. Thanks for your support!
+TXT_UPSELL_TITLE	FULL VERSION AVAILABLE FOR PURCHASE 
+TXT_UPSELL_POINTS	•  60 HIGH VELOCITY LEVELS\n•  UNLOCK 3 EXTREME MODES\n•  CHALLENGE THE CRAB BOSS
+TXT_Disclaimer	Purchase is required
