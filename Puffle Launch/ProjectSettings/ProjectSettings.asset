@@ -942,15 +942,15 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: 
-  metroPackageVersion: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 00000e000a0000ca
-  metroApplicationDescription: 
+  metroApplicationDescription: Puffle Launch
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Puffle Launch
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
