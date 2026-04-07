@@ -46,393 +46,119 @@ public class InputController : MonoBehaviour
     }
 
     private const float mSwipeDetectTime = 0.03f;
-
     private const float mReturnSwipeDetectTime = 0.45f;
-
     private const float mNoMoveHoldDetectionTime = 0.3f;
-
     private const float mSlideDetectionDistance = 60f;
-
     private const float mMoveDetectionDistance = 30f;
 
     public float mTiltDeadzone = 0.05f;
 
     private float mHoldDetectTime = 0.1f;
-
     private float mLongHoldDetectTime = 0.3f;
-
     private float mTapDetectTime = 0.03f;
-
     private float mDoubleTapDetectTime = 0.3f;
 
     private float mTapTimer;
-
     private float mDoubleTapTimer;
-
     private float mSwipeTimer;
-
     private float mReturnSwipeTimer;
-
     private float mNoMoveHoldTimer;
 
     private Vector3 mTouchPosition1 = Vector3.zero;
-
     private Vector3 mPreviousTouchPosition1 = default(Vector3);
-
     private Vector3 mMoveStartPos1 = Vector3.zero;
-
     private bool m_Finger1Moved;
-
     private bool mb_skipNextUpdate;
 
     private Vector3 mTouchPosition2 = Vector3.zero;
-
     private Vector3 mPreviousTouchPosition2 = default(Vector3);
-
     private Vector3 mMoveStartPos2 = Vector3.zero;
-
     private bool m_Finger2Moved;
 
     private Vector3 mTapPosition = Vector3.zero;
-
     private Vector3 mReleasePosition = Vector3.zero;
-
     private Vector3 mStartTouchPos = default(Vector3);
 
     private Vector2 mSlideDirection = default(Vector2);
-
     private Vector2[] mVectTable = new Vector2[4];
 
     private bool mTouch;
-
     private bool mTouchDown;
-
     private bool mTouchWasDown;
 
     private int mTouchCount;
-
     private int mPreviousTouchCount;
 
     private int mTapCount;
 
     private bool mHold;
-
     private bool mLongHold;
-
     private bool mSwipe;
-
     private bool mNoReturnSwipe;
-
     private bool mReturnSwipe;
-
     private bool mRelease;
-
     private bool mSingleTap;
-
     private bool mDoubleTap;
-
     private bool mDetectingFirstTap;
 
     private Slide mSwipeDirection = Slide.eSlide_Count;
-
     private Slide mPreviousSwipeDirection = Slide.eSlide_Count;
 
     private SwipeAxis mSwipeAxis = SwipeAxis.eNone;
 
     private bool mIsFirstZoom = true;
-
     private bool mZoom;
-
     private ZoomAxis mZoomDirection = ZoomAxis.eNone;
-
     private float mZoomDistance;
 
     private Vector2 mAccelerometerDirection = default(Vector2);
-
     private float mAccelerometerDeadZone = 0.075f;
 
     private bool mShake;
-
     private Vector3 mShakeDirection = default(Vector3);
 
     private bool mTilt;
-
     private TiltAxis mTiltDirection = TiltAxis.eTilt_COUNT;
-
     private float mTiltAngle;
 
     private Orientation mDeviceOrientation = Orientation.eOrientation_COUNT;
 
-    public Vector3 StartTouchPos
-    {
-        get
-        {
-            return mStartTouchPos;
-        }
-    }
-
-    public Vector3 TouchPosition1
-    {
-        get
-        {
-            return mTouchPosition1;
-        }
-    }
-
-    public bool HasFinger1Moved
-    {
-        get
-        {
-            return m_Finger1Moved;
-        }
-    }
-
-    public bool HasFinger2Moved
-    {
-        get
-        {
-            return m_Finger2Moved;
-        }
-    }
-
-    public Vector3 TouchPosition2
-    {
-        get
-        {
-            return mTouchPosition2;
-        }
-    }
-
-    public int TouchCount
-    {
-        get
-        {
-            return mTouchCount;
-        }
-    }
-
-    public int PreviousTouchCount
-    {
-        get
-        {
-            return mPreviousTouchCount;
-        }
-    }
-
-    public bool TouchDown
-    {
-        get
-        {
-            return mTouchDown;
-        }
-    }
-
-    public Vector3 TapPosition
-    {
-        get
-        {
-            return mTapPosition;
-        }
-    }
-
-    public int FirstFingerId
-    {
-        get
-        {
-            return (Input.touchCount <= 0) ? (-1) : Input.touches[0].fingerId;
-        }
-    }
-
-    public int SecondFingerId
-    {
-        get
-        {
-            return (Input.touchCount <= 1) ? (-1) : Input.touches[1].fingerId;
-        }
-    }
-
-    public Vector3 ReleasePosition
-    {
-        get
-        {
-            return mReleasePosition;
-        }
-    }
-
-    public bool SingleTap
-    {
-        get
-        {
-            return mSingleTap;
-        }
-    }
-
-    public bool DoubleTap
-    {
-        get
-        {
-            return mDoubleTap;
-        }
-    }
-
-    public bool DetectingFirstTap
-    {
-        get
-        {
-            return mDetectingFirstTap;
-        }
-    }
-
-    public bool Held
-    {
-        get
-        {
-            return mHold;
-        }
-    }
-
-    public bool LongHold
-    {
-        get
-        {
-            return mLongHold;
-        }
-    }
-
-    public bool Release
-    {
-        get
-        {
-            return mRelease;
-        }
-    }
-
-    public bool Swipe
-    {
-        get
-        {
-            return mSwipe;
-        }
-    }
-
-    public Vector2 SlideDirection
-    {
-        get
-        {
-            return mSlideDirection;
-        }
-    }
-
-    public bool ReturnSwipe
-    {
-        get
-        {
-            return mReturnSwipe;
-        }
-    }
-
-    public SwipeAxis ReturnSwipeAxis
-    {
-        get
-        {
-            return mSwipeAxis;
-        }
-    }
-
-    public Vector2 AccelerometerDirection
-    {
-        get
-        {
-            return mAccelerometerDirection;
-        }
-    }
-
-    public float AccelerometerDeadZone
-    {
-        get
-        {
-            return mAccelerometerDeadZone;
-        }
-    }
-
-    public bool Zoom
-    {
-        get
-        {
-            return mZoom;
-        }
-    }
-
-    public ZoomAxis ZoomDirection
-    {
-        get
-        {
-            return mZoomDirection;
-        }
-    }
-
-    public float ZoomDistance
-    {
-        get
-        {
-            return mZoomDistance;
-        }
-    }
-
-    public bool Tilt
-    {
-        get
-        {
-            return mTilt;
-        }
-    }
-
-    public TiltAxis TiltDirection
-    {
-        get
-        {
-            return mTiltDirection;
-        }
-    }
-
-    public float TiltAngle
-    {
-        get
-        {
-            return mTiltAngle;
-        }
-    }
-
-    public bool Shake
-    {
-        get
-        {
-            return mShake;
-        }
-    }
-
-    public Vector3 ShakeDirection
-    {
-        get
-        {
-            return mShakeDirection;
-        }
-    }
+    public Vector3 StartTouchPos => mStartTouchPos;
+    public Vector3 TouchPosition1 => mTouchPosition1;
+    public bool HasFinger1Moved => m_Finger1Moved;
+    public bool HasFinger2Moved => m_Finger2Moved;
+    public Vector3 TouchPosition2 => mTouchPosition2;
+    public int TouchCount => mTouchCount;
+    public int PreviousTouchCount => mPreviousTouchCount;
+    public bool TouchDown => mTouchDown;
+    public Vector3 TapPosition => mTapPosition;
+    public int FirstFingerId => (Input.touchCount <= 0) ? (-1) : Input.touches[0].fingerId;
+    public int SecondFingerId => (Input.touchCount <= 1) ? (-1) : Input.touches[1].fingerId;
+    public Vector3 ReleasePosition => mReleasePosition;
+    public bool SingleTap => mSingleTap;
+    public bool DoubleTap => mDoubleTap;
+    public bool DetectingFirstTap => mDetectingFirstTap;
+    public bool Held => mHold;
+    public bool LongHold => mLongHold;
+    public bool Release => mRelease;
+    public bool Swipe => mSwipe;
+    public Vector2 SlideDirection => mSlideDirection;
+    public bool ReturnSwipe => mReturnSwipe;
+    public SwipeAxis ReturnSwipeAxis => mSwipeAxis;
+    public Vector2 AccelerometerDirection => mAccelerometerDirection;
+    public float AccelerometerDeadZone => mAccelerometerDeadZone;
+    public bool Zoom => mZoom;
+    public ZoomAxis ZoomDirection => mZoomDirection;
+    public float ZoomDistance => mZoomDistance;
+    public bool Tilt => mTilt;
+    public TiltAxis TiltDirection => mTiltDirection;
+    public float TiltAngle => mTiltAngle;
+    public bool Shake => mShake;
+    public Vector3 ShakeDirection => mShakeDirection;
 
     private void Start()
     {
         mAccelerometerDirection.x = (mAccelerometerDirection.y = 0f);
-#if UNITY_IOS || UNITY_EDITOR
-#if UNITY_IOS
-		if (UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPhone ||
-		    UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPodTouch1Gen ||
-		    UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPodTouch2Gen ||
-		    UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPhone3G)
-		{
-			mHoldDetectTime = 0.2f;
-		}
-#endif
-#endif
     }
 
     public void Reset()
@@ -466,17 +192,24 @@ public class InputController : MonoBehaviour
         mDoubleTap = false;
         mSwipe = false;
         mRelease = false;
+
         if (GameManager.Instance.IsPause())
         {
             Reset();
             return;
         }
+
         if (mb_skipNextUpdate)
         {
             mb_skipNextUpdate = false;
             return;
         }
-        if (Application.isEditor)
+
+        // ===== Standalone + WebGL Input =====
+        if (Application.isEditor || Application.platform == RuntimePlatform.WindowsPlayer ||
+            Application.platform == RuntimePlatform.LinuxPlayer ||
+            Application.platform == RuntimePlatform.OSXPlayer ||
+            Application.platform == RuntimePlatform.WebGLPlayer)
         {
             if (Input.GetMouseButton(0))
             {
@@ -484,15 +217,35 @@ public class InputController : MonoBehaviour
                 mTouch = true;
                 mTouchPosition1 = Input.mousePosition;
                 if (!mTouchWasDown)
-                {
                     mTouchDown = true;
-                }
             }
+
+            if (Input.GetMouseButtonUp(0))
+            {
+                mRelease = true;
+                mReleasePosition = Input.mousePosition;
+            }
+
+            Vector3 mouseDelta = Input.mousePosition - mPreviousTouchPosition1;
+            if (mouseDelta.magnitude >= mMoveDetectionDistance)
+            {
+                m_Finger1Moved = true;
+            }
+
             Vector2 keyDir = Vector2.zero;
             if (Input.GetKey(KeyCode.UpArrow)) keyDir.y += 1;
             if (Input.GetKey(KeyCode.DownArrow)) keyDir.y -= 1;
             if (Input.GetKey(KeyCode.LeftArrow)) keyDir.x -= 1;
             if (Input.GetKey(KeyCode.RightArrow)) keyDir.x += 1;
+
+            if (Input.GetKey(KeyCode.Space))
+            {
+                mTouch = true;
+                mTouchDown = !mTouchWasDown;
+                mTouchCount = 1;
+                mTouchPosition1 += new Vector3(0f, 0f, 0f);
+            }
+
             if (keyDir != Vector2.zero)
             {
                 mTouch = true;
@@ -503,12 +256,14 @@ public class InputController : MonoBehaviour
         }
         else
         {
+            // Touch + accelerometer input (mobile)
             mZoom = false;
             mTouchPosition2 = Vector3.zero;
             mTilt = false;
             mTiltDirection = TiltAxis.eTilt_COUNT;
             mShake = false;
             mTouchCount = Input.touchCount;
+
             if (mTouchCount > 0)
             {
                 mTouch = true;
@@ -516,6 +271,7 @@ public class InputController : MonoBehaviour
                 mTouchPosition1.x = position.x;
                 mTouchPosition1.y = position.y;
                 mTouchPosition1.z = 0f;
+
                 if (mTouchCount > 1)
                 {
                     position = Input.touches[1].position;
@@ -523,14 +279,15 @@ public class InputController : MonoBehaviour
                     mTouchPosition2.y = position.y;
                     mTouchPosition2.z = 0f;
                 }
+
                 if (!mTouchWasDown)
-                {
                     mTouchDown = true;
-                }
             }
+
             mAccelerometerDirection.x = Input.acceleration.x;
             mAccelerometerDirection.y = Input.acceleration.y;
             mAccelerometerDirection = mAccelerometerDirection.normalized;
+
             switch (Input.deviceOrientation)
             {
                 case DeviceOrientation.LandscapeLeft:
@@ -541,19 +298,33 @@ public class InputController : MonoBehaviour
                     break;
             }
         }
+
         if (!mTouch && mTouchWasDown)
         {
             mRelease = true;
             mReleasePosition = mPreviousTouchPosition1;
         }
+
+        // ==== Gestures ====
+        TapGesture();
         MoveGesture();
+        SwipeGesture();
+        ReturnSwipeGesture();
         ZoomGesture();
+        TiltGesture();
+        ShakeGesture();
+
         mTouchWasDown = mTouch;
         mPreviousTouchPosition1 = mTouchPosition1;
-        if (!Application.isEditor)
+        if (!Application.isEditor &&
+            Application.platform != RuntimePlatform.WindowsPlayer &&
+            Application.platform != RuntimePlatform.LinuxPlayer &&
+            Application.platform != RuntimePlatform.OSXPlayer &&
+            Application.platform != RuntimePlatform.WebGLPlayer)
         {
             mPreviousTouchPosition2 = mTouchPosition2;
         }
+
         mPreviousSwipeDirection = mSwipeDirection;
         mPreviousTouchCount = mTouchCount;
     }
@@ -807,16 +578,27 @@ public class InputController : MonoBehaviour
         {
             mTilt = true;
             mTiltDirection = ((!(mAccelerometerDirection.y > 0f)) ? ((mDeviceOrientation != Orientation.eLandscapeLeft) ? TiltAxis.eTiltLeft : TiltAxis.eTiltRight) : ((mDeviceOrientation != Orientation.eLandscapeLeft) ? TiltAxis.eTiltRight : TiltAxis.eTiltLeft));
-            mTiltAngle = Mathf.Abs(mAccelerometerDirection.y);
+            mTiltAngle = mAccelerometerDirection.y;
+        }
+        if (Mathf.Abs(mAccelerometerDirection.x) >= mTiltDeadzone)
+        {
+            mTilt = true;
+            mTiltDirection = ((!(mAccelerometerDirection.x > 0f)) ? ((mDeviceOrientation != Orientation.eLandscapeLeft) ? TiltAxis.eTiltDown : TiltAxis.eTiltUp) : ((mDeviceOrientation != Orientation.eLandscapeLeft) ? TiltAxis.eTiltUp : TiltAxis.eTiltDown));
+            mTiltAngle = mAccelerometerDirection.x;
         }
     }
 
     private void ShakeGesture()
     {
-        if (Input.acceleration.magnitude >= 1.75f)
+        Vector3 acceleration = Input.acceleration;
+        if (acceleration.sqrMagnitude > 3f)
         {
             mShake = true;
-            mShakeDirection = Input.acceleration;
+            mShakeDirection = acceleration.normalized;
+        }
+        else
+        {
+            mShake = false;
         }
     }
 }
