@@ -205,7 +205,6 @@ public class InputController : MonoBehaviour
             return;
         }
 
-        // ===== Standalone + WebGL Input =====
         if (Application.isEditor || Application.platform == RuntimePlatform.WindowsPlayer ||
             Application.platform == RuntimePlatform.LinuxPlayer ||
             Application.platform == RuntimePlatform.OSXPlayer ||
@@ -256,7 +255,6 @@ public class InputController : MonoBehaviour
         }
         else
         {
-            // Touch + accelerometer input (mobile)
             mZoom = false;
             mTouchPosition2 = Vector3.zero;
             mTilt = false;
@@ -305,7 +303,6 @@ public class InputController : MonoBehaviour
             mReleasePosition = mPreviousTouchPosition1;
         }
 
-        // ==== Gestures ====
         TapGesture();
         MoveGesture();
         SwipeGesture();
