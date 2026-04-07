@@ -435,20 +435,9 @@ public class Puffle : MonoBehaviour
         float value = 0f;
         if (mControlTimeout <= 0f)
         {
-            if (Application.isEditor)
+            if (Application.isEditor || Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.OSXPlayer)
             {
-                value = 0f;
-                if (smControlType == ControlType.eTilting)
-                {
-                    if (Input.GetMouseButton(0))
-                    {
-                        value = ((!(Input.mousePosition.x > (float)Screen.width * 0.5f)) ? (-1f) : 1f);
-                    }
-                }
-                else if (smControlType == ControlType.eTouchScreen)
-                {
-                    value = Input.GetAxisRaw("Horizontal");
-                }
+                value = Input.GetAxisRaw("Horizontal");
             }
             else
             {
@@ -501,30 +490,39 @@ public class Puffle : MonoBehaviour
         {
             return false;
         }
-        if (GameManager.HasCompletedTurboMode(GameManager.Instance.CurrentWorld) && GameFlowManager.Instance.GUIManager.HudManager.InGameHud.mo_slowMoButton.ContainsTouch())
+        if (GameManager.HasCompletedTurboMode(GameManager.Instance.CurrentWorld) &&
+            GameFlowManager.Instance.GUIManager.HudManager.InGameHud.mo_slowMoButton.ContainsTouch())
         {
             return false;
         }
-        if (GUIUtility.hotControl != 0 || (!Application.isEditor && mInputController.Zoom))
+        if (GUIUtility.hotControl != 0 || (!Application.isEditor && mInputController != null && mInputController.Zoom))
         {
             return false;
         }
+
         bool result = false;
-        if (Application.isEditor)
+
+        if (Application.isEditor || Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.OSXPlayer)
         {
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
             {
                 result = true;
             }
         }
         else
         {
-            ControlType controlType = smControlType;
-            if ((controlType == ControlType.eTouchScreen || controlType == ControlType.eTilting) && mInputController.TouchDown && mCurrentContainer.tag != "ControllableCannon")
+            switch (smControlType)
             {
-                result = true;
+                case ControlType.eTouchScreen:
+                case ControlType.eTilting:
+                    if (mInputController.TouchDown && mCurrentContainer.tag != "ControllableCannon")
+                    {
+                        result = true;
+                    }
+                    break;
             }
         }
+
         return result;
     }
 
