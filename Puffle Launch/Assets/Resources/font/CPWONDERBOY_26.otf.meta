@@ -3,14 +3,18 @@ guid: c711dd3b4a3aef94ba2b57e12d17badf
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 16
+  fontSize: 26
   forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
   - Loyola!
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7cf2dc0828e29424b882fc4bae0bff4b, type: 3}
+  - {fileID: 12800000, guid: 5c88b8abad47aea409a38d9190b893be, type: 3}
+  - {fileID: 12800000, guid: 71f10966396fc6341ab054c051eff199, type: 3}
+  - {fileID: 12800000, guid: b1534c33dae252444a57f37646190988, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

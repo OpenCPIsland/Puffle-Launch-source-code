@@ -3,14 +3,17 @@ guid: 6dea1b867671a4d468c51a9d9a088678
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 16
+  fontSize: 55
   forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
   - cpBurbankSmallBold
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c9cb6aa1c08165343ab7be6b7e0a848e, type: 3}
+  - {fileID: 12800000, guid: ae627d6bc2af4d44682c6a866f5cd912, type: 3}
+  - {fileID: 12800000, guid: e2cf7254c29b97643a946f70c68de4cc, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
