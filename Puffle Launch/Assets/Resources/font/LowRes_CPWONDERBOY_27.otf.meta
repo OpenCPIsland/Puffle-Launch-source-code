@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: a4e4d5400d9392c47b2f4711daee4a74
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 27
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Loyola!
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8da8a9433c8e47c44b4a0afc58b5e72f, type: 3}
+  - {fileID: 12800000, guid: 7cf2dc0828e29424b882fc4bae0bff4b, type: 3}
+  - {fileID: 12800000, guid: c711dd3b4a3aef94ba2b57e12d17badf, type: 3}
+  - {fileID: 12800000, guid: 5c88b8abad47aea409a38d9190b893be, type: 3}
+  - {fileID: 12800000, guid: ce32ce82393b7754ab6fee5347689217, type: 3}
+  - {fileID: 12800000, guid: a8af3e01b82b01744a63c854a89a088c, type: 3}
+  - {fileID: 12800000, guid: b1534c33dae252444a57f37646190988, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

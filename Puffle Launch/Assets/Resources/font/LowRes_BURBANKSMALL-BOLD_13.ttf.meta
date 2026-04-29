@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 09930941e165ddf459480782320de000
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 13
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - cpBurbankSmallBold
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ecd9fa50900d2d6438d61aea7d812d4c, type: 3}
+  - {fileID: 12800000, guid: c9cb6aa1c08165343ab7be6b7e0a848e, type: 3}
+  - {fileID: 12800000, guid: ae627d6bc2af4d44682c6a866f5cd912, type: 3}
+  - {fileID: 12800000, guid: 4df64afa4001cfe47ab6dcc9d39e8ddf, type: 3}
+  - {fileID: 12800000, guid: 9b8e4ae3da4d5394ea981092e2f31c7b, type: 3}
+  - {fileID: 12800000, guid: e2cf7254c29b97643a946f70c68de4cc, type: 3}
+  - {fileID: 12800000, guid: 6dea1b867671a4d468c51a9d9a088678, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
