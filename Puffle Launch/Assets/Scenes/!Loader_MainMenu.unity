@@ -823,7 +823,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20}
-  m_Mesh: {fileID: 1964723511}
+  m_Mesh: {fileID: 1824221841}
 --- !u!33 &60
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -986,7 +986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   renderCamera: {fileID: 53}
-  screenPos: {x: 0, y: 0, z: 30}
+  screenPos: {x: 0, y: 0, z: 0}
   screenPosSmall: {x: 0, y: 0, z: 0}
   screenPosMedium: {x: 0, y: 0, z: 0}
   screenPosLarge: {x: 0, y: 0, z: 0}
@@ -1055,8 +1055,8 @@ MonoBehaviour:
   persistent: 0
   plane: 0
   winding: 1
-  width: 9.176554
-  height: 9.725578
+  width: 0
+  height: 0
   bleedCompensation: {x: 0, y: 0}
   anchor: 0
   pixelPerfect: 1
@@ -1069,7 +1069,7 @@ MonoBehaviour:
   hideAtStart: 0
   ignoreClipping: 0
   lowerLeftPixel: {x: 0, y: 255}
-  pixelDimensions: {x: 234, y: 248}
+  pixelDimensions: {x: 224, y: 239}
   lowerLeftPixelSmall:
   - {x: 0, y: 127}
   - {x: 0, y: 0}
@@ -1519,7 +1519,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &1964723511
+--- !u!43 &1824221841
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1536,8 +1536,8 @@ Mesh:
     firstVertex: 0
     vertexCount: 4
     localAABB:
-      m_Center: {x: 4.5382767, y: -4.812789, z: 0}
-      m_Extent: {x: 4.588277, y: 4.862789, z: 0}
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
   m_Shapes:
     vertices: []
     shapes: []
@@ -1616,7 +1616,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 192
-    _typelessdata: cdcc4cbdcdcc4c3d000000000000000000000000000000000000803f0000803f0000803f0000803f000000000000783fcdcc4cbd2bcf1ac1000000000000000000000000000000000000803f0000803f0000803f0000803f00000000000000005d0612412bcf1ac1000000000000000000000000000000000000803f0000803f0000803f0000803f00006a3f000000005d061241cdcc4c3d000000000000000000000000000000000000803f0000803f0000803f0000803f00006a3f0000783f
+    _typelessdata: 0000000000000000000000000000000000000000000000000000803f0000803f0000803f0000803f0000000000006f3f0000000000000000000000000000000000000000000000000000803f0000803f0000803f0000803f00000000000000000000000000000000000000000000000000000000000000000000803f0000803f0000803f0000803f0000603f000000000000000000000000000000000000000000000000000000000000803f0000803f0000803f0000803f0000603f00006f3f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -1670,8 +1670,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 4.5382767, y: -4.812789, z: 0}
-    m_Extent: {x: 4.588277, y: 4.862789, z: 0}
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
   m_MeshUsageFlags: 0
   m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
